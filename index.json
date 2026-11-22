@@ -699,9 +699,6 @@
           "network-policy",
           "proxy"
         ],
-        "sortKeys": {
-          "npm_weekly_downloads": 1766
-        },
         "category": "security"
       },
       "versions": [
@@ -1296,9 +1293,6 @@
           "cordis",
           "llm"
         ],
-        "sortKeys": {
-          "npm_weekly_downloads": 1606
-        },
         "category": "session"
       },
       "versions": [
@@ -3738,6 +3732,9 @@
           "ci",
           "issue-tracker"
         ],
+        "sortKeys": {
+          "npm_weekly_downloads": 523
+        },
         "category": "integration"
       },
       "versions": [
@@ -5124,13 +5121,323 @@
       ]
     },
     {
+      "name": "dsh-hazchem-check",
+      "title": {
+        "en": "Hazardous chemical threshold check",
+        "zh": "危化品临界量核对"
+      },
+      "description": {
+        "en": "Check a hazardous-chemical register and its major-hazard-source record for completeness and threshold arithmetic — you get a list of which row, which column, and what to fix; the verdict stays with the reviewer.",
+        "zh": "危险化学品临界量与重大危险源辨识核对（按储存量与临界量核对台账自洽，仅提示差异，不作出定性结论）"
+      },
+      "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCIgcm9sZT0iaW1nIiBhcmlhLWxhYmVsPSJIYXphcmRvdXMgY2hlbWljYWwgdGhyZXNob2xkIGNoZWNrIj4KICA8cmVjdCB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIHJ4PSIxMiIgZmlsbD0iIzBmNzY2ZSIvPgogIDxwYXRoIGQ9Ik0xNiAyMGgzMk0xNiAzMmgyMk0xNiA0NGgyNiIgc3Ryb2tlPSIjZmZmZmZmIiBzdHJva2Utd2lkdGg9IjQiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPgogIDxjaXJjbGUgY3g9IjUwIiBjeT0iNDYiIHI9IjkiIGZpbGw9IiNmZmZmZmYiLz4KICA8cGF0aCBkPSJNNDYgNDZsMyAzIDUtNiIgc3Ryb2tlPSIjMGY3NjZlIiBzdHJva2Utd2lkdGg9IjMiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgZmlsbD0ibm9uZSIvPgo8L3N2Zz4K",
+      "author": "PerryLink",
+      "homepage": "https://github.com/PerryLink/dsh-hazchem-check#readme",
+      "repository": {
+        "url": "https://github.com/PerryLink/dsh-hazchem-check"
+      },
+      "metadata": {
+        "keywords": [
+          "deepseek-harness",
+          "dsh",
+          "dsh-plugin",
+          "cordis",
+          "hazchem"
+        ],
+        "category": "security"
+      },
+      "versions": [
+        {
+          "version": "0.2.16",
+          "publishTimestamp": 1795364687,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-0 <0.3.0 || >=0.2.3-0 <0.3.0-0"
+          }
+        },
+        {
+          "version": "0.2.15",
+          "publishTimestamp": 1795339880,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-0 <0.3.0 || >=0.2.3-0 <0.3.0-0"
+          }
+        },
+        {
+          "version": "0.2.14",
+          "publishTimestamp": 1794278107,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-0 <0.3.0"
+          }
+        },
+        {
+          "version": "0.2.14-reconcile.0",
+          "publishTimestamp": 1794274747,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-0 <0.3.0"
+          }
+        },
+        {
+          "version": "0.2.13",
+          "publishTimestamp": 1793774000,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-0 <0.3.0"
+          }
+        },
+        {
+          "version": "0.2.12",
+          "publishTimestamp": 1793376634,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-0 <0.3.0"
+          }
+        },
+        {
+          "version": "0.2.11",
+          "publishTimestamp": 1792330165,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-0 <0.3.0"
+          }
+        },
+        {
+          "version": "0.2.10",
+          "publishTimestamp": 1792298555,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-0 <0.3.0"
+          }
+        },
+        {
+          "version": "0.2.4",
+          "publishTimestamp": 1791559490,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-alpha.1"
+          }
+        },
+        {
+          "version": "0.2.3",
+          "publishTimestamp": 1791462198,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-alpha.1"
+          }
+        },
+        {
+          "version": "0.2.2",
+          "publishTimestamp": 1791461272,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-alpha.1"
+          }
+        },
+        {
+          "version": "0.2.1",
+          "publishTimestamp": 1791435864,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-alpha.1"
+          }
+        },
+        {
+          "version": "0.2.0",
+          "publishTimestamp": 1791425281,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-alpha.1"
+          }
+        }
+      ]
+    },
+    {
+      "name": "dsh-hidden-risk-map",
+      "title": {
+        "en": "Major hazard clause mapping",
+        "zh": "重大隐患条款映射"
+      },
+      "description": {
+        "en": "Map every row of a safety hazard ledger onto candidate clauses of the major-accident-hazard determination standard — see which row is missing which clause, and why; the verdict stays with the reviewer.",
+        "zh": "安全隐患台账→《工贸企业重大事故隐患判定标准》（应急管理部令第10号）条款映射提示（仅提示差异，不作出定性结论）"
+      },
+      "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCIgcm9sZT0iaW1nIiBhcmlhLWxhYmVsPSJNYWpvciBoYXphcmQgY2xhdXNlIG1hcHBpbmciPgogIDxyZWN0IHdpZHRoPSI2NCIgaGVpZ2h0PSI2NCIgcng9IjEyIiBmaWxsPSIjMGY3NjZlIi8+CiAgPHBhdGggZD0iTTE2IDIwaDMyTTE2IDMyaDIyTTE2IDQ0aDI2IiBzdHJva2U9IiNmZmZmZmYiIHN0cm9rZS13aWR0aD0iNCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+CiAgPGNpcmNsZSBjeD0iNTAiIGN5PSI0NiIgcj0iOSIgZmlsbD0iI2ZmZmZmZiIvPgogIDxwYXRoIGQ9Ik00NiA0NmwzIDMgNS02IiBzdHJva2U9IiMwZjc2NmUiIHN0cm9rZS13aWR0aD0iMyIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBmaWxsPSJub25lIi8+Cjwvc3ZnPgo=",
+      "author": "PerryLink",
+      "homepage": "https://github.com/PerryLink/dsh-hidden-risk-map#readme",
+      "repository": {
+        "url": "https://github.com/PerryLink/dsh-hidden-risk-map"
+      },
+      "metadata": {
+        "keywords": [
+          "deepseek-harness",
+          "dsh",
+          "dsh-plugin",
+          "cordis",
+          "hidden",
+          "risk",
+          "map"
+        ],
+        "category": "security"
+      },
+      "versions": [
+        {
+          "version": "0.2.13",
+          "publishTimestamp": 1795364576,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-0 <0.3.0 || >=0.2.3-0 <0.3.0-0"
+          }
+        },
+        {
+          "version": "0.2.12",
+          "publishTimestamp": 1795339879,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-0 <0.3.0 || >=0.2.3-0 <0.3.0-0"
+          }
+        },
+        {
+          "version": "0.2.11",
+          "publishTimestamp": 1794278166,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-0 <0.3.0"
+          }
+        },
+        {
+          "version": "0.2.11-reconcile.0",
+          "publishTimestamp": 1794274870,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-0 <0.3.0"
+          }
+        },
+        {
+          "version": "0.2.10",
+          "publishTimestamp": 1793774083,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-0 <0.3.0"
+          }
+        },
+        {
+          "version": "0.2.9",
+          "publishTimestamp": 1793376701,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-0 <0.3.0"
+          }
+        },
+        {
+          "version": "0.2.8",
+          "publishTimestamp": 1792329985,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-0 <0.3.0"
+          }
+        },
+        {
+          "version": "0.2.7",
+          "publishTimestamp": 1792298705,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-0 <0.3.0"
+          }
+        },
+        {
+          "version": "0.2.3",
+          "publishTimestamp": 1791559522,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-alpha.1"
+          }
+        },
+        {
+          "version": "0.2.2",
+          "publishTimestamp": 1791462007,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-alpha.1"
+          }
+        },
+        {
+          "version": "0.2.1",
+          "publishTimestamp": 1791435729,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-alpha.1"
+          }
+        },
+        {
+          "version": "0.2.0",
+          "publishTimestamp": 1791425213,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-alpha.1"
+          }
+        }
+      ]
+    },
+    {
       "name": "dsh-power-loss-split",
       "title": {
         "en": "Line-loss split check",
         "zh": "线损拆分核对"
       },
       "description": {
-        "en": "线损电量拆分与考核表核对（依据公开的线损计算口径，仅提示差异，不作出定性结论）",
+        "en": "One metering period of line-loss figures, checked in one pass: which row does not close, by how much, and what to fix.",
         "zh": "线损电量拆分与考核表核对（依据公开的线损计算口径，仅提示差异，不作出定性结论）"
       },
       "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCIgcm9sZT0iaW1nIiBhcmlhLWxhYmVsPSJMaW5lLWxvc3Mgc3BsaXQgY2hlY2siPgogIDxyZWN0IHdpZHRoPSI2NCIgaGVpZ2h0PSI2NCIgcng9IjEyIiBmaWxsPSIjMGY3NjZlIi8+CiAgPHBhdGggZD0iTTE2IDIwaDMyTTE2IDMyaDIyTTE2IDQ0aDI2IiBzdHJva2U9IiNmZmZmZmYiIHN0cm9rZS13aWR0aD0iNCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+CiAgPGNpcmNsZSBjeD0iNTAiIGN5PSI0NiIgcj0iOSIgZmlsbD0iI2ZmZmZmZiIvPgogIDxwYXRoIGQ9Ik00NiA0NmwzIDMgNS02IiBzdHJva2U9IiMwZjc2NmUiIHN0cm9rZS13aWR0aD0iMyIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBmaWxsPSJub25lIi8+Cjwvc3ZnPgo=",
@@ -5149,12 +5456,19 @@
           "loss",
           "split"
         ],
-        "sortKeys": {
-          "npm_weekly_downloads": 190
-        },
         "category": "security"
       },
       "versions": [
+        {
+          "version": "0.3.2",
+          "publishTimestamp": 1795364894,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-0 <0.3.0 || >=0.2.3-0 <0.3.0-0"
+          }
+        },
         {
           "version": "0.3.1",
           "publishTimestamp": 1795339532,
@@ -5284,7 +5598,7 @@
         "zh": "电力工作票核对"
       },
       "description": {
-        "en": "电力工作票要素齐备性与签发许可顺序核对（依据现行电力安全工作规程，仅提示差异，不作出定性结论）",
+        "en": "Hand it one power work ticket and get back a list of which column is short, what is missing, and how to fix it — the compliance verdict stays with the reviewer.",
         "zh": "电力工作票要素齐备性与签发许可顺序核对（依据现行电力安全工作规程，仅提示差异，不作出定性结论）"
       },
       "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCIgcm9sZT0iaW1nIiBhcmlhLWxhYmVsPSJQb3dlciB3b3JrIHRpY2tldCBjaGVjayI+CiAgPHJlY3Qgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiByeD0iMTIiIGZpbGw9IiMwZjc2NmUiLz4KICA8cGF0aCBkPSJNMTYgMjBoMzJNMTYgMzJoMjJNMTYgNDRoMjYiIHN0cm9rZT0iI2ZmZmZmZiIgc3Ryb2tlLXdpZHRoPSI0IiBzdHJva2UtbGluZWNhcD0icm91bmQiLz4KICA8Y2lyY2xlIGN4PSI1MCIgY3k9IjQ2IiByPSI5IiBmaWxsPSIjZmZmZmZmIi8+CiAgPHBhdGggZD0iTTQ2IDQ2bDMgMyA1LTYiIHN0cm9rZT0iIzBmNzY2ZSIgc3Ryb2tlLXdpZHRoPSIzIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGZpbGw9Im5vbmUiLz4KPC9zdmc+Cg==",
@@ -5302,12 +5616,19 @@
           "power",
           "ticket"
         ],
-        "sortKeys": {
-          "npm_weekly_downloads": 293
-        },
         "category": "security"
       },
       "versions": [
+        {
+          "version": "0.2.13",
+          "publishTimestamp": 1795364993,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-0 <0.3.0 || >=0.2.3-0 <0.3.0-0"
+          }
+        },
         {
           "version": "0.2.12",
           "publishTimestamp": 1795339482,
@@ -6318,9 +6639,6 @@
           "fair",
           "privacy"
         ],
-        "sortKeys": {
-          "npm_weekly_downloads": 268
-        },
         "category": "research"
       },
       "versions": [
@@ -7878,7 +8196,7 @@
         "zh": "基金申请书形式审查"
       },
       "description": {
-        "en": "国家自然科学基金申请书形式审查与匿名化提示（依据《国家自然科学基金条例》与申请人导入的当年指南，仅提示差异，不作出定性结论）",
+        "en": "Turn one NSFC proposal into a line-by-line difference list your research office can act on.",
         "zh": "国家自然科学基金申请书形式审查与匿名化提示（依据《国家自然科学基金条例》与申请人导入的当年指南，仅提示差异，不作出定性结论）"
       },
       "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCIgcm9sZT0iaW1nIiBhcmlhLWxhYmVsPSJOU0ZDIHByb3Bvc2FsIGZvcm0gY2hlY2siPgogIDxyZWN0IHdpZHRoPSI2NCIgaGVpZ2h0PSI2NCIgcng9IjEyIiBmaWxsPSIjMGY3NjZlIi8+CiAgPHBhdGggZD0iTTE2IDIwaDMyTTE2IDMyaDIyTTE2IDQ0aDI2IiBzdHJva2U9IiNmZmZmZmYiIHN0cm9rZS13aWR0aD0iNCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+CiAgPGNpcmNsZSBjeD0iNTAiIGN5PSI0NiIgcj0iOSIgZmlsbD0iI2ZmZmZmZiIvPgogIDxwYXRoIGQ9Ik00NiA0NmwzIDMgNS02IiBzdHJva2U9IiMwZjc2NmUiIHN0cm9rZS13aWR0aD0iMyIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBmaWxsPSJub25lIi8+Cjwvc3ZnPgo=",
@@ -7896,12 +8214,19 @@
           "nsfc",
           "form"
         ],
-        "sortKeys": {
-          "npm_weekly_downloads": 298
-        },
         "category": "research"
       },
       "versions": [
+        {
+          "version": "0.2.15",
+          "publishTimestamp": 1795365013,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-0 <0.3.0 || >=0.2.3-0 <0.3.0-0"
+          }
+        },
         {
           "version": "0.2.14",
           "publishTimestamp": 1795339520,
@@ -8021,7 +8346,7 @@
         "zh": "试卷结构核对"
       },
       "description": {
-        "en": "试卷解析结构核对（按题型、答案、分值与 yotta 标识核对试卷结构自洽，仅提示差异，不作出定性结论）",
+        "en": "Reports every mismatch in a parsed exam paper — which row, which field, what is off.",
         "zh": "试卷解析结构核对（按题型、答案、分值与 yotta 标识核对试卷结构自洽，仅提示差异，不作出定性结论）"
       },
       "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCIgcm9sZT0iaW1nIiBhcmlhLWxhYmVsPSJQYXBlciBkb2N1bWVudCBjaGVjayI+CiAgPHJlY3Qgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiByeD0iMTIiIGZpbGw9IiMwZjc2NmUiLz4KICA8cGF0aCBkPSJNMTYgMjBoMzJNMTYgMzJoMjJNMTYgNDRoMjYiIHN0cm9rZT0iI2ZmZmZmZiIgc3Ryb2tlLXdpZHRoPSI0IiBzdHJva2UtbGluZWNhcD0icm91bmQiLz4KICA8Y2lyY2xlIGN4PSI1MCIgY3k9IjQ2IiByPSI5IiBmaWxsPSIjZmZmZmZmIi8+CiAgPHBhdGggZD0iTTQ2IDQ2bDMgMyA1LTYiIHN0cm9rZT0iIzBmNzY2ZSIgc3Ryb2tlLXdpZHRoPSIzIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGZpbGw9Im5vbmUiLz4KPC9zdmc+Cg==",
@@ -8039,12 +8364,19 @@
           "paper",
           "doc"
         ],
-        "sortKeys": {
-          "npm_weekly_downloads": 114
-        },
         "category": "research"
       },
       "versions": [
+        {
+          "version": "0.2.13",
+          "publishTimestamp": 1795364931,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-0 <0.3.0 || >=0.2.3-0 <0.3.0-0"
+          }
+        },
         {
           "version": "0.2.12",
           "publishTimestamp": 1795339545,
@@ -8164,7 +8496,7 @@
         "zh": "政策专报核对"
       },
       "description": {
-        "en": "政策专报要素核对（按观点、依据、出处与建议核对专报齐备，仅提示差异，不作出定性结论）",
+        "en": "Check a policy brief element by element — completeness and data freshness — and get back which row, which column and what is missing, with the verdict left to the reviewer.",
         "zh": "政策专报要素核对（按观点、依据、出处与建议核对专报齐备，仅提示差异，不作出定性结论）"
       },
       "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCIgcm9sZT0iaW1nIiBhcmlhLWxhYmVsPSJQb2xpY3kgYnJpZWYgY2hlY2siPgogIDxyZWN0IHdpZHRoPSI2NCIgaGVpZ2h0PSI2NCIgcng9IjEyIiBmaWxsPSIjMGY3NjZlIi8+CiAgPHBhdGggZD0iTTE2IDIwaDMyTTE2IDMyaDIyTTE2IDQ0aDI2IiBzdHJva2U9IiNmZmZmZmYiIHN0cm9rZS13aWR0aD0iNCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+CiAgPGNpcmNsZSBjeD0iNTAiIGN5PSI0NiIgcj0iOSIgZmlsbD0iI2ZmZmZmZiIvPgogIDxwYXRoIGQ9Ik00NiA0NmwzIDMgNS02IiBzdHJva2U9IiMwZjc2NmUiIHN0cm9rZS13aWR0aD0iMyIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBmaWxsPSJub25lIi8+Cjwvc3ZnPgo=",
@@ -8183,12 +8515,19 @@
           "brief",
           "draft"
         ],
-        "sortKeys": {
-          "npm_weekly_downloads": 112
-        },
         "category": "research"
       },
       "versions": [
+        {
+          "version": "0.2.14",
+          "publishTimestamp": 1795364906,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-0 <0.3.0 || >=0.2.3-0 <0.3.0-0"
+          }
+        },
         {
           "version": "0.2.13",
           "publishTimestamp": 1795339538,
@@ -8482,6 +8821,9 @@
           "monitoring",
           "rep-v1"
         ],
+        "sortKeys": {
+          "npm_weekly_downloads": 338
+        },
         "category": "research"
       },
       "versions": [
@@ -9824,7 +10166,7 @@
         "zh": "归类层级核对"
       },
       "description": {
-        "en": "商品归类层级一致性核对（按章、品目、子目与商品编号的层级关系核对自洽，仅提示差异，不作出定性结论）",
+        "en": "Check a whole commodity-classification register: which row, which column, what differs — one line at a time.",
         "zh": "商品归类层级一致性核对（按章、品目、子目与商品编号的层级关系核对自洽，仅提示差异，不作出定性结论）"
       },
       "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCIgcm9sZT0iaW1nIiBhcmlhLWxhYmVsPSJIUyBjbGFzc2lmaWNhdGlvbiBjaGVjayI+CiAgPHJlY3Qgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiByeD0iMTIiIGZpbGw9IiMwZjc2NmUiLz4KICA8cGF0aCBkPSJNMTYgMjBoMzJNMTYgMzJoMjJNMTYgNDRoMjYiIHN0cm9rZT0iI2ZmZmZmZiIgc3Ryb2tlLXdpZHRoPSI0IiBzdHJva2UtbGluZWNhcD0icm91bmQiLz4KICA8Y2lyY2xlIGN4PSI1MCIgY3k9IjQ2IiByPSI5IiBmaWxsPSIjZmZmZmZmIi8+CiAgPHBhdGggZD0iTTQ2IDQ2bDMgMyA1LTYiIHN0cm9rZT0iIzBmNzY2ZSIgc3Ryb2tlLXdpZHRoPSIzIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGZpbGw9Im5vbmUiLz4KPC9zdmc+Cg==",
@@ -9844,6 +10186,16 @@
         "category": "customs"
       },
       "versions": [
+        {
+          "version": "0.2.15",
+          "publishTimestamp": 1795364800,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-0 <0.3.0 || >=0.2.3-0 <0.3.0-0"
+          }
+        },
         {
           "version": "0.2.14",
           "publishTimestamp": 1795339907,
@@ -9983,7 +10335,7 @@
         "zh": "信用证单据核对"
       },
       "description": {
-        "en": "信用证单据条款核对（按单据种类、份数、期限与不符点核对交单自洽，仅提示差异，不作出定性结论）",
+        "en": "Turn one letter-of-credit presentation checklist into a row-by-row list of what is missing, where, and what to fix.",
         "zh": "信用证单据条款核对（按单据种类、份数、期限与不符点核对交单自洽，仅提示差异，不作出定性结论）"
       },
       "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCIgcm9sZT0iaW1nIiBhcmlhLWxhYmVsPSJML0MgZG9jdW1lbnQgY2hlY2siPgogIDxyZWN0IHdpZHRoPSI2NCIgaGVpZ2h0PSI2NCIgcng9IjEyIiBmaWxsPSIjMGY3NjZlIi8+CiAgPHBhdGggZD0iTTE2IDIwaDMyTTE2IDMyaDIyTTE2IDQ0aDI2IiBzdHJva2U9IiNmZmZmZmYiIHN0cm9rZS13aWR0aD0iNCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+CiAgPGNpcmNsZSBjeD0iNTAiIGN5PSI0NiIgcj0iOSIgZmlsbD0iI2ZmZmZmZiIvPgogIDxwYXRoIGQ9Ik00NiA0NmwzIDMgNS02IiBzdHJva2U9IiMwZjc2NmUiIHN0cm9rZS13aWR0aD0iMyIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBmaWxsPSJub25lIi8+Cjwvc3ZnPgo=",
@@ -10003,6 +10355,16 @@
         "category": "customs"
       },
       "versions": [
+        {
+          "version": "0.2.14",
+          "publishTimestamp": 1795364964,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-0 <0.3.0 || >=0.2.3-0 <0.3.0-0"
+          }
+        },
         {
           "version": "0.2.13",
           "publishTimestamp": 1795339854,
@@ -10132,7 +10494,7 @@
         "zh": "原产地 RVC 核对"
       },
       "description": {
-        "en": "原产地区域价值成分核对（按 RVC 定义式与门槛核对原产地判定自洽，仅提示差异，不作出定性结论）",
+        "en": "Check an origin determination register line by line — RVC arithmetic and declaration fields — and get back a list of what is inconsistent, where, and what to fix.",
         "zh": "原产地区域价值成分核对（按 RVC 定义式与门槛核对原产地判定自洽，仅提示差异，不作出定性结论）"
       },
       "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCIgcm9sZT0iaW1nIiBhcmlhLWxhYmVsPSJPcmlnaW4gUlZDIGNoZWNrIj4KICA8cmVjdCB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIHJ4PSIxMiIgZmlsbD0iIzBmNzY2ZSIvPgogIDxwYXRoIGQ9Ik0xNiAyMGgzMk0xNiAzMmgyMk0xNiA0NGgyNiIgc3Ryb2tlPSIjZmZmZmZmIiBzdHJva2Utd2lkdGg9IjQiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPgogIDxjaXJjbGUgY3g9IjUwIiBjeT0iNDYiIHI9IjkiIGZpbGw9IiNmZmZmZmYiLz4KICA8cGF0aCBkPSJNNDYgNDZsMyAzIDUtNiIgc3Ryb2tlPSIjMGY3NjZlIiBzdHJva2Utd2lkdGg9IjMiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgZmlsbD0ibm9uZSIvPgo8L3N2Zz4K",
@@ -10156,6 +10518,16 @@
         "category": "customs"
       },
       "versions": [
+        {
+          "version": "0.2.14",
+          "publishTimestamp": 1795364859,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-0 <0.3.0 || >=0.2.3-0 <0.3.0-0"
+          }
+        },
         {
           "version": "0.2.13",
           "publishTimestamp": 1795339458,
@@ -10285,7 +10657,7 @@
         "zh": "施工天窗核对"
       },
       "description": {
-        "en": "铁路施工天窗台账核对（按时间窗、时长算术与命令号核对台账自洽，仅提示差异，不作出定性结论）",
+        "en": "List, in one pass, every row and column of a railway work-window register that does not add up — the verdict stays with the reviewer.",
         "zh": "铁路施工天窗台账核对（按时间窗、时长算术与命令号核对台账自洽，仅提示差异，不作出定性结论）"
       },
       "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCIgcm9sZT0iaW1nIiBhcmlhLWxhYmVsPSJSYWlsd2F5IHdvcmsgd2luZG93IGNoZWNrIj4KICA8cmVjdCB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIHJ4PSIxMiIgZmlsbD0iIzBmNzY2ZSIvPgogIDxwYXRoIGQ9Ik0xNiAyMGgzMk0xNiAzMmgyMk0xNiA0NGgyNiIgc3Ryb2tlPSIjZmZmZmZmIiBzdHJva2Utd2lkdGg9IjQiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPgogIDxjaXJjbGUgY3g9IjUwIiBjeT0iNDYiIHI9IjkiIGZpbGw9IiNmZmZmZmYiLz4KICA8cGF0aCBkPSJNNDYgNDZsMyAzIDUtNiIgc3Ryb2tlPSIjMGY3NjZlIiBzdHJva2Utd2lkdGg9IjMiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgZmlsbD0ibm9uZSIvPgo8L3N2Zz4K",
@@ -10303,12 +10675,19 @@
           "railway",
           "window"
         ],
-        "sortKeys": {
-          "npm_weekly_downloads": 109
-        },
         "category": "customs"
       },
       "versions": [
+        {
+          "version": "0.2.12",
+          "publishTimestamp": 1795364930,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-0 <0.3.0 || >=0.2.3-0 <0.3.0-0"
+          }
+        },
         {
           "version": "0.2.11",
           "publishTimestamp": 1795339624,
@@ -10706,7 +11085,7 @@
         "zh": "资格条件核对"
       },
       "description": {
-        "en": "投标人资格条件核对（按资格条件与证明材料核对逐条响应，仅提示差异，不作出定性结论）",
+        "en": "Walk a bidder qualification condition register row by row and point at exactly which row and column do not close the loop.",
         "zh": "投标人资格条件核对（按资格条件与证明材料核对逐条响应，仅提示差异，不作出定性结论）"
       },
       "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCIgcm9sZT0iaW1nIiBhcmlhLWxhYmVsPSJCaWQgcXVhbGlmaWNhdGlvbiBjaGVjayI+CiAgPHJlY3Qgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiByeD0iMTIiIGZpbGw9IiMwZjc2NmUiLz4KICA8cGF0aCBkPSJNMTYgMjBoMzJNMTYgMzJoMjJNMTYgNDRoMjYiIHN0cm9rZT0iI2ZmZmZmZiIgc3Ryb2tlLXdpZHRoPSI0IiBzdHJva2UtbGluZWNhcD0icm91bmQiLz4KICA8Y2lyY2xlIGN4PSI1MCIgY3k9IjQ2IiByPSI5IiBmaWxsPSIjZmZmZmZmIi8+CiAgPHBhdGggZD0iTTQ2IDQ2bDMgMyA1LTYiIHN0cm9rZT0iIzBmNzY2ZSIgc3Ryb2tlLXdpZHRoPSIzIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGZpbGw9Im5vbmUiLz4KPC9zdmc+Cg==",
@@ -10730,6 +11109,16 @@
         "category": "tender"
       },
       "versions": [
+        {
+          "version": "0.2.15",
+          "publishTimestamp": 1795364775,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-0 <0.3.0 || >=0.2.3-0 <0.3.0-0"
+          }
+        },
         {
           "version": "0.2.14",
           "publishTimestamp": 1795339802,
@@ -11032,7 +11421,7 @@
         "zh": "质疑投诉期限核对"
       },
       "description": {
-        "en": "质疑与投诉期限核对（按公开的政府采购质疑投诉规定核对期限与台账自洽，仅提示差异，不作出定性结论）",
+        "en": "Turn the gaps and out-of-order dates in a query-and-complaint register into a row-by-row list of what is missing — the verdict stays with the reviewer.",
         "zh": "质疑与投诉期限核对（按公开的政府采购质疑投诉规定核对期限与台账自洽，仅提示差异，不作出定性结论）"
       },
       "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCIgcm9sZT0iaW1nIiBhcmlhLWxhYmVsPSJQcm90ZXN0IGRlYWRsaW5lIGNoZWNrIj4KICA8cmVjdCB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIHJ4PSIxMiIgZmlsbD0iIzBmNzY2ZSIvPgogIDxwYXRoIGQ9Ik0xNiAyMGgzMk0xNiAzMmgyMk0xNiA0NGgyNiIgc3Ryb2tlPSIjZmZmZmZmIiBzdHJva2Utd2lkdGg9IjQiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPgogIDxjaXJjbGUgY3g9IjUwIiBjeT0iNDYiIHI9IjkiIGZpbGw9IiNmZmZmZmYiLz4KICA8cGF0aCBkPSJNNDYgNDZsMyAzIDUtNiIgc3Ryb2tlPSIjMGY3NjZlIiBzdHJva2Utd2lkdGg9IjMiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgZmlsbD0ibm9uZSIvPgo8L3N2Zz4K",
@@ -11050,12 +11439,19 @@
           "protest",
           "deadline"
         ],
-        "sortKeys": {
-          "npm_weekly_downloads": 112
-        },
         "category": "tender"
       },
       "versions": [
+        {
+          "version": "0.2.14",
+          "publishTimestamp": 1795365017,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-0 <0.3.0 || >=0.2.3-0 <0.3.0-0"
+          }
+        },
         {
           "version": "0.2.13",
           "publishTimestamp": 1795339715,
@@ -11175,7 +11571,7 @@
         "zh": "规则库自检"
       },
       "description": {
-        "en": "规则库文件自检核对（按条款引用纪律与效力上限核对规则库自身合规，仅提示差异，不作出定性结论）",
+        "en": "Check a rule pack line by line — unique rule ids, complete basis fields, real excerpt length, link-shaped sources and severity ceilings — and get back what is inconsistent, where, and what to fix.",
         "zh": "规则库文件自检核对（按条款引用纪律与效力上限核对规则库自身合规，仅提示差异，不作出定性结论）"
       },
       "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCIgcm9sZT0iaW1nIiBhcmlhLWxhYmVsPSJSdWxlIGZpbGUgc2VsZi1jaGVjayI+CiAgPHJlY3Qgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiByeD0iMTIiIGZpbGw9IiMwZjc2NmUiLz4KICA8cGF0aCBkPSJNMTYgMjBoMzJNMTYgMzJoMjJNMTYgNDRoMjYiIHN0cm9rZT0iI2ZmZmZmZiIgc3Ryb2tlLXdpZHRoPSI0IiBzdHJva2UtbGluZWNhcD0icm91bmQiLz4KICA8Y2lyY2xlIGN4PSI1MCIgY3k9IjQ2IiByPSI5IiBmaWxsPSIjZmZmZmZmIi8+CiAgPHBhdGggZD0iTTQ2IDQ2bDMgMyA1LTYiIHN0cm9rZT0iIzBmNzY2ZSIgc3Ryb2tlLXdpZHRoPSIzIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGZpbGw9Im5vbmUiLz4KPC9zdmc+Cg==",
@@ -11195,6 +11591,16 @@
         "category": "tender"
       },
       "versions": [
+        {
+          "version": "0.2.12",
+          "publishTimestamp": 1795364978,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-0 <0.3.0 || >=0.2.3-0 <0.3.0-0"
+          }
+        },
         {
           "version": "0.2.11",
           "publishTimestamp": 1795339652,
@@ -11304,7 +11710,7 @@
         "zh": "招标条款摘录核对"
       },
       "description": {
-        "en": "招标文件条款摘录核对（按出处与原文逐字核对摘录完整性，仅提示差异，不作出定性结论）",
+        "en": "Read a tender clause-extract table and get, row by row, what is off and where — differences only, no verdict.",
         "zh": "招标文件条款摘录核对（按出处与原文逐字核对摘录完整性，仅提示差异，不作出定性结论）"
       },
       "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCIgcm9sZT0iaW1nIiBhcmlhLWxhYmVsPSJUZW5kZXIgY2xhdXNlIGV4dHJhY3QgY2hlY2siPgogIDxyZWN0IHdpZHRoPSI2NCIgaGVpZ2h0PSI2NCIgcng9IjEyIiBmaWxsPSIjMGY3NjZlIi8+CiAgPHBhdGggZD0iTTE2IDIwaDMyTTE2IDMyaDIyTTE2IDQ0aDI2IiBzdHJva2U9IiNmZmZmZmYiIHN0cm9rZS13aWR0aD0iNCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+CiAgPGNpcmNsZSBjeD0iNTAiIGN5PSI0NiIgcj0iOSIgZmlsbD0iI2ZmZmZmZiIvPgogIDxwYXRoIGQ9Ik00NiA0NmwzIDMgNS02IiBzdHJva2U9IiMwZjc2NmUiIHN0cm9rZS13aWR0aD0iMyIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBmaWxsPSJub25lIi8+Cjwvc3ZnPgo=",
@@ -11325,6 +11731,16 @@
         "category": "tender"
       },
       "versions": [
+        {
+          "version": "0.2.15",
+          "publishTimestamp": 1795365009,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-0 <0.3.0 || >=0.2.3-0 <0.3.0-0"
+          }
+        },
         {
           "version": "0.2.14",
           "publishTimestamp": 1795339544,
@@ -11464,7 +11880,7 @@
         "zh": "评分矩阵核对"
       },
       "description": {
-        "en": "评标因素评分矩阵核对（按分值上限与合计核对矩阵自洽，仅提示差异，不作出定性结论）",
+        "en": "Point out the arithmetic errors in an evaluation-factor scoring matrix before the review meeting — differences only, never the committee's verdict.",
         "zh": "评标因素评分矩阵核对（按分值上限与合计核对矩阵自洽，仅提示差异，不作出定性结论）"
       },
       "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCIgcm9sZT0iaW1nIiBhcmlhLWxhYmVsPSJUZW5kZXIgbWF0cml4IGNoZWNrIj4KICA8cmVjdCB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIHJ4PSIxMiIgZmlsbD0iIzBmNzY2ZSIvPgogIDxwYXRoIGQ9Ik0xNiAyMGgzMk0xNiAzMmgyMk0xNiA0NGgyNiIgc3Ryb2tlPSIjZmZmZmZmIiBzdHJva2Utd2lkdGg9IjQiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPgogIDxjaXJjbGUgY3g9IjUwIiBjeT0iNDYiIHI9IjkiIGZpbGw9IiNmZmZmZmYiLz4KICA8cGF0aCBkPSJNNDYgNDZsMyAzIDUtNiIgc3Ryb2tlPSIjMGY3NjZlIiBzdHJva2Utd2lkdGg9IjMiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgZmlsbD0ibm9uZSIvPgo8L3N2Zz4K",
@@ -11485,6 +11901,16 @@
         "category": "tender"
       },
       "versions": [
+        {
+          "version": "0.2.18",
+          "publishTimestamp": 1795365006,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-0 <0.3.0 || >=0.2.3-0 <0.3.0-0"
+          }
+        },
         {
           "version": "0.2.17",
           "publishTimestamp": 1795339574,
@@ -11644,7 +12070,7 @@
         "zh": "招标文件抽取"
       },
       "description": {
-        "en": "从招标文件抽取关键信息：前附表的时间与保证金、投标文件组成与份数，并逐项报告是否检索到。",
+        "en": "Turn one tender document into a reviewable checklist — every item says what was retrieved and what is still missing.",
         "zh": "从招标文件抽取关键信息：前附表的时间与保证金、投标文件组成与份数，并逐项报告是否检索到。"
       },
       "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCIgcm9sZT0iaW1nIiBhcmlhLWxhYmVsPSJUZW5kZXIgcmVxdWlyZW1lbnRzIj4KICA8cmVjdCB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIHJ4PSIxMiIgZmlsbD0iIzBmNzY2ZSIvPgogIDxwYXRoIGQ9Ik0xNiAyMGgzMk0xNiAzMmgyMk0xNiA0NGgyNiIgc3Ryb2tlPSIjZmZmZmZmIiBzdHJva2Utd2lkdGg9IjQiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPgogIDxjaXJjbGUgY3g9IjUwIiBjeT0iNDYiIHI9IjkiIGZpbGw9IiNmZmZmZmYiLz4KICA8cGF0aCBkPSJNNDYgNDZsMyAzIDUtNiIgc3Ryb2tlPSIjMGY3NjZlIiBzdHJva2Utd2lkdGg9IjMiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgZmlsbD0ibm9uZSIvPgo8L3N2Zz4K",
@@ -11664,9 +12090,22 @@
           "bid",
           "requirements"
         ],
+        "sortKeys": {
+          "npm_weekly_downloads": 388
+        },
         "category": "tender"
       },
       "versions": [
+        {
+          "version": "0.2.7",
+          "publishTimestamp": 1795365019,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-0 <0.3.0 || >=0.2.3-0 <0.3.0-0"
+          }
+        },
         {
           "version": "0.2.6",
           "publishTimestamp": 1795339618,
@@ -12175,13 +12614,172 @@
       ]
     },
     {
+      "name": "dsh-hazplan-check",
+      "title": {
+        "en": "HAZOP worksheet check",
+        "zh": "HAZOP 分析表核对"
+      },
+      "description": {
+        "en": "Check a HAZOP worksheet line by line: which row, which column, what is missing — in one list.",
+        "zh": "HAZOP 分析表要素齐备性与偏差推导一致性核对（依据公开的危险与可操作性分析标准，仅提示差异，不作出定性结论）"
+      },
+      "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCIgcm9sZT0iaW1nIiBhcmlhLWxhYmVsPSJIQVpPUCB3b3Jrc2hlZXQgY2hlY2siPgogIDxyZWN0IHdpZHRoPSI2NCIgaGVpZ2h0PSI2NCIgcng9IjEyIiBmaWxsPSIjMGY3NjZlIi8+CiAgPHBhdGggZD0iTTE2IDIwaDMyTTE2IDMyaDIyTTE2IDQ0aDI2IiBzdHJva2U9IiNmZmZmZmYiIHN0cm9rZS13aWR0aD0iNCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+CiAgPGNpcmNsZSBjeD0iNTAiIGN5PSI0NiIgcj0iOSIgZmlsbD0iI2ZmZmZmZiIvPgogIDxwYXRoIGQ9Ik00NiA0NmwzIDMgNS02IiBzdHJva2U9IiMwZjc2NmUiIHN0cm9rZS13aWR0aD0iMyIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBmaWxsPSJub25lIi8+Cjwvc3ZnPgo=",
+      "author": "PerryLink",
+      "homepage": "https://github.com/PerryLink/dsh-hazplan-check#readme",
+      "repository": {
+        "url": "https://github.com/PerryLink/dsh-hazplan-check"
+      },
+      "metadata": {
+        "keywords": [
+          "deepseek-harness",
+          "dsh",
+          "dsh-plugin",
+          "cordis",
+          "hazplan"
+        ],
+        "category": "construction"
+      },
+      "versions": [
+        {
+          "version": "0.2.15",
+          "publishTimestamp": 1795364752,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-0 <0.3.0 || >=0.2.3-0 <0.3.0-0"
+          }
+        },
+        {
+          "version": "0.2.14",
+          "publishTimestamp": 1795339916,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-0 <0.3.0 || >=0.2.3-0 <0.3.0-0"
+          }
+        },
+        {
+          "version": "0.2.13",
+          "publishTimestamp": 1794278138,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-0 <0.3.0"
+          }
+        },
+        {
+          "version": "0.2.13-reconcile.0",
+          "publishTimestamp": 1794274782,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-0 <0.3.0"
+          }
+        },
+        {
+          "version": "0.2.12",
+          "publishTimestamp": 1793774105,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-0 <0.3.0"
+          }
+        },
+        {
+          "version": "0.2.11",
+          "publishTimestamp": 1793376890,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-0 <0.3.0"
+          }
+        },
+        {
+          "version": "0.2.10",
+          "publishTimestamp": 1792329975,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-0 <0.3.0"
+          }
+        },
+        {
+          "version": "0.2.9",
+          "publishTimestamp": 1792298649,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-0 <0.3.0"
+          }
+        },
+        {
+          "version": "0.2.4",
+          "publishTimestamp": 1791559546,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-alpha.1"
+          }
+        },
+        {
+          "version": "0.2.3",
+          "publishTimestamp": 1791462013,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-alpha.1"
+          }
+        },
+        {
+          "version": "0.2.2",
+          "publishTimestamp": 1791436080,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-alpha.1"
+          }
+        },
+        {
+          "version": "0.2.1",
+          "publishTimestamp": 1791433904,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-alpha.1"
+          }
+        },
+        {
+          "version": "0.2.0",
+          "publishTimestamp": 1791425122,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-alpha.1"
+          }
+        }
+      ]
+    },
+    {
       "name": "dsh-permit-report-check",
       "title": {
         "en": "Permit processing check",
         "zh": "许可办理核对"
       },
       "description": {
-        "en": "行政许可办理核对（按申请材料、法定时限与决定记录核对台账闭环，仅提示差异，不作出定性结论）",
+        "en": "Check an administrative licensing register row by row — you get a list of which row, which column, and what is off; the permit decision stays with the approver.",
         "zh": "行政许可办理核对（按申请材料、法定时限与决定记录核对台账闭环，仅提示差异，不作出定性结论）"
       },
       "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCIgcm9sZT0iaW1nIiBhcmlhLWxhYmVsPSJQZXJtaXQgcHJvY2Vzc2luZyBjaGVjayI+CiAgPHJlY3Qgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiByeD0iMTIiIGZpbGw9IiMwZjc2NmUiLz4KICA8cGF0aCBkPSJNMTYgMjBoMzJNMTYgMzJoMjJNMTYgNDRoMjYiIHN0cm9rZT0iI2ZmZmZmZiIgc3Ryb2tlLXdpZHRoPSI0IiBzdHJva2UtbGluZWNhcD0icm91bmQiLz4KICA8Y2lyY2xlIGN4PSI1MCIgY3k9IjQ2IiByPSI5IiBmaWxsPSIjZmZmZmZmIi8+CiAgPHBhdGggZD0iTTQ2IDQ2bDMgMyA1LTYiIHN0cm9rZT0iIzBmNzY2ZSIgc3Ryb2tlLXdpZHRoPSIzIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGZpbGw9Im5vbmUiLz4KPC9zdmc+Cg==",
@@ -12199,12 +12797,19 @@
           "permit",
           "report"
         ],
-        "sortKeys": {
-          "npm_weekly_downloads": 105
-        },
         "category": "construction"
       },
       "versions": [
+        {
+          "version": "0.2.15",
+          "publishTimestamp": 1795364926,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-0 <0.3.0 || >=0.2.3-0 <0.3.0-0"
+          }
+        },
         {
           "version": "0.2.14",
           "publishTimestamp": 1795339863,
@@ -12324,7 +12929,7 @@
         "zh": "安全技术交底核对"
       },
       "description": {
-        "en": "安全技术交底记录要素齐备性与签字闭环核对（依据公开的安全生产法规与检查标准，仅提示差异，不作出定性结论）",
+        "en": "Check one safety technical briefing record and get back the exact \"which rule, which column, what differs, how to fix it\" list — the verdict stays with the reviewer.",
         "zh": "安全技术交底记录要素齐备性与签字闭环核对（依据公开的安全生产法规与检查标准，仅提示差异，不作出定性结论）"
       },
       "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCIgcm9sZT0iaW1nIiBhcmlhLWxhYmVsPSJTYWZldHkgYnJpZWYgcmVjb3JkIGNoZWNrIj4KICA8cmVjdCB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIHJ4PSIxMiIgZmlsbD0iIzBmNzY2ZSIvPgogIDxwYXRoIGQ9Ik0xNiAyMGgzMk0xNiAzMmgyMk0xNiA0NGgyNiIgc3Ryb2tlPSIjZmZmZmZmIiBzdHJva2Utd2lkdGg9IjQiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPgogIDxjaXJjbGUgY3g9IjUwIiBjeT0iNDYiIHI9IjkiIGZpbGw9IiNmZmZmZmYiLz4KICA8cGF0aCBkPSJNNDYgNDZsMyAzIDUtNiIgc3Ryb2tlPSIjMGY3NjZlIiBzdHJva2Utd2lkdGg9IjMiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgZmlsbD0ibm9uZSIvPgo8L3N2Zz4K",
@@ -12345,6 +12950,16 @@
         "category": "construction"
       },
       "versions": [
+        {
+          "version": "0.2.13",
+          "publishTimestamp": 1795365015,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-0 <0.3.0 || >=0.2.3-0 <0.3.0-0"
+          }
+        },
         {
           "version": "0.2.12",
           "publishTimestamp": 1795339626,
@@ -12454,7 +13069,7 @@
         "zh": "安全资格台账核对"
       },
       "description": {
-        "en": "核对施工安全资格台账：三级教育与学时、培训档案四要素、特种作业证书、有效期、工种匹配、六个月实习期。",
+        "en": "Check a construction safety-qualification ledger line by line against the clauses and get the list of which row, what is missing, and which clause requires it — the verdict stays with the reviewer.",
         "zh": "核对施工安全资格台账：三级教育与学时、培训档案四要素、特种作业证书、有效期、工种匹配、六个月实习期。"
       },
       "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCIgcm9sZT0iaW1nIiBhcmlhLWxhYmVsPSJTYWZldHkgbGVkZ2VyIGNoZWNrIj4KICA8cmVjdCB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIHJ4PSIxMiIgZmlsbD0iIzBmNzY2ZSIvPgogIDxwYXRoIGQ9Ik0xNiAyMGgzMk0xNiAzMmgyMk0xNiA0NGgyNiIgc3Ryb2tlPSIjZmZmZmZmIiBzdHJva2Utd2lkdGg9IjQiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPgogIDxjaXJjbGUgY3g9IjUwIiBjeT0iNDYiIHI9IjkiIGZpbGw9IiNmZmZmZmYiLz4KICA8cGF0aCBkPSJNNDYgNDZsMyAzIDUtNiIgc3Ryb2tlPSIjMGY3NjZlIiBzdHJva2Utd2lkdGg9IjMiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgZmlsbD0ibm9uZSIvPgo8L3N2Zz4K",
@@ -12477,6 +13092,16 @@
         "category": "construction"
       },
       "versions": [
+        {
+          "version": "0.1.5",
+          "publishTimestamp": 1795365147,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-0 <0.3.0 || >=0.2.3-0 <0.3.0-0"
+          }
+        },
         {
           "version": "0.1.4",
           "publishTimestamp": 1795339652,
@@ -12546,7 +13171,7 @@
         "zh": "监理日志校验"
       },
       "description": {
-        "en": "监理日志跨日连续性与旁站覆盖提示（依据 GB/T 50319-2013 等公开文件，仅提示差异，不作出定性结论）",
+        "en": "Point every missing day, duplicate log and uncovered on-site supervision record at the exact date, column and cited clause.",
         "zh": "监理日志跨日连续性与旁站覆盖提示（依据 GB/T 50319-2013 等公开文件，仅提示差异，不作出定性结论）"
       },
       "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCIgcm9sZT0iaW1nIiBhcmlhLWxhYmVsPSJTaXRlIHN1cGVydmlzaW9uIGxvZyBjaGVjayI+CiAgPHJlY3Qgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiByeD0iMTIiIGZpbGw9IiMwZjc2NmUiLz4KICA8cGF0aCBkPSJNMTYgMjBoMzJNMTYgMzJoMjJNMTYgNDRoMjYiIHN0cm9rZT0iI2ZmZmZmZiIgc3Ryb2tlLXdpZHRoPSI0IiBzdHJva2UtbGluZWNhcD0icm91bmQiLz4KICA8Y2lyY2xlIGN4PSI1MCIgY3k9IjQ2IiByPSI5IiBmaWxsPSIjZmZmZmZmIi8+CiAgPHBhdGggZD0iTTQ2IDQ2bDMgMyA1LTYiIHN0cm9rZT0iIzBmNzY2ZSIgc3Ryb2tlLXdpZHRoPSIzIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGZpbGw9Im5vbmUiLz4KPC9zdmc+Cg==",
@@ -12567,6 +13192,16 @@
         "category": "construction"
       },
       "versions": [
+        {
+          "version": "0.3.4",
+          "publishTimestamp": 1795364985,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-0 <0.3.0 || >=0.2.3-0 <0.3.0-0"
+          }
+        },
         {
           "version": "0.3.3",
           "publishTimestamp": 1795339566,
@@ -12716,7 +13351,7 @@
         "zh": "土壤地下水监测核对"
       },
       "description": {
-        "en": "土壤与地下水监测台账核对（按点位、监测项目、限值与超标判定核对台账自洽，仅提示差异，不作出定性结论）",
+        "en": "Check a soil and groundwater monitoring register for completeness and arithmetic consistency — you get a list of which row, which column, and what to fix; the verdict stays with the reviewer.",
         "zh": "土壤与地下水监测台账核对（按点位、监测项目、限值与超标判定核对台账自洽，仅提示差异，不作出定性结论）"
       },
       "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCIgcm9sZT0iaW1nIiBhcmlhLWxhYmVsPSJTb2lsIGFuZCBncm91bmR3YXRlciBtb25pdG9yaW5nIGNoZWNrIj4KICA8cmVjdCB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIHJ4PSIxMiIgZmlsbD0iIzBmNzY2ZSIvPgogIDxwYXRoIGQ9Ik0xNiAyMGgzMk0xNiAzMmgyMk0xNiA0NGgyNiIgc3Ryb2tlPSIjZmZmZmZmIiBzdHJva2Utd2lkdGg9IjQiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPgogIDxjaXJjbGUgY3g9IjUwIiBjeT0iNDYiIHI9IjkiIGZpbGw9IiNmZmZmZmYiLz4KICA8cGF0aCBkPSJNNDYgNDZsMyAzIDUtNiIgc3Ryb2tlPSIjMGY3NjZlIiBzdHJva2Utd2lkdGg9IjMiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgZmlsbD0ibm9uZSIvPgo8L3N2Zz4K",
@@ -12736,6 +13371,16 @@
         "category": "construction"
       },
       "versions": [
+        {
+          "version": "0.2.12",
+          "publishTimestamp": 1795364989,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-0 <0.3.0 || >=0.2.3-0 <0.3.0-0"
+          }
+        },
         {
           "version": "0.2.11",
           "publishTimestamp": 1795339530,
@@ -13005,7 +13650,7 @@
         "zh": "病案首页质控"
       },
       "description": {
-        "en": "病案首页形式质控与逻辑矛盾提示（依据国卫办医发〔2016〕24号等公开文件，仅提示差异，不作出定性结论）",
+        "en": "Check one inpatient front-sheet export and get back a line-by-line list of which row, which column, what differs, and which clause says so.",
         "zh": "病案首页形式质控与逻辑矛盾提示（依据国卫办医发〔2016〕24号等公开文件，仅提示差异，不作出定性结论）"
       },
       "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCIgcm9sZT0iaW1nIiBhcmlhLWxhYmVsPSJNZWRpY2FsIHJlY29yZCBmcm9udC1zaGVldCBRQyI+CiAgPHJlY3Qgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiByeD0iMTIiIGZpbGw9IiMwZjc2NmUiLz4KICA8cGF0aCBkPSJNMTYgMjBoMzJNMTYgMzJoMjJNMTYgNDRoMjYiIHN0cm9rZT0iI2ZmZmZmZiIgc3Ryb2tlLXdpZHRoPSI0IiBzdHJva2UtbGluZWNhcD0icm91bmQiLz4KICA8Y2lyY2xlIGN4PSI1MCIgY3k9IjQ2IiByPSI5IiBmaWxsPSIjZmZmZmZmIi8+CiAgPHBhdGggZD0iTTQ2IDQ2bDMgMyA1LTYiIHN0cm9rZT0iIzBmNzY2ZSIgc3Ryb2tlLXdpZHRoPSIzIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGZpbGw9Im5vbmUiLz4KPC9zdmc+Cg==",
@@ -13022,12 +13667,19 @@
           "cordis",
           "medrec"
         ],
-        "sortKeys": {
-          "npm_weekly_downloads": 297
-        },
         "category": "medical"
       },
       "versions": [
+        {
+          "version": "0.2.16",
+          "publishTimestamp": 1795364845,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-0 <0.3.0 || >=0.2.3-0 <0.3.0-0"
+          }
+        },
         {
           "version": "0.2.15",
           "publishTimestamp": 1795339869,
@@ -13157,7 +13809,7 @@
         "zh": "护理记录核对"
       },
       "description": {
-        "en": "护理记录时限、签名与评估表完整性校验（依据《病历书写基本规范》等公开文件，仅提示差异，不作出定性结论）",
+        "en": "Turn one inpatient episode's nursing records into a line-by-line list of reviewable differences — each one naming the clause it comes from.",
         "zh": "护理记录时限、签名与评估表完整性校验（依据《病历书写基本规范》等公开文件，仅提示差异，不作出定性结论）"
       },
       "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCIgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiByb2xlPSJpbWciIGFyaWEtbGFiZWw9Im51cnNlLXJlY29yZC1jaGVjayI+CiAgPHJlY3Qgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiByeD0iMTQiIGZpbGw9IiMxZjZmZWIiIC8+CiAgPHBhdGggZD0iTTIwIDIyaDI0djZIMjB6TTIwIDMyaDI0djZIMjB6TTIwIDQyaDE0djRIMjB6IiBmaWxsPSIjZmZmZmZmIiAvPgo8L3N2Zz4K",
@@ -13175,12 +13827,19 @@
           "nurse",
           "record"
         ],
-        "sortKeys": {
-          "npm_weekly_downloads": 277
-        },
         "category": "medical"
       },
       "versions": [
+        {
+          "version": "0.2.16",
+          "publishTimestamp": 1795364961,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-0 <0.3.0 || >=0.2.3-0 <0.3.0-0"
+          }
+        },
         {
           "version": "0.2.15",
           "publishTimestamp": 1795339532,
@@ -13832,9 +14491,6 @@
           "perrylink",
           "playbook"
         ],
-        "sortKeys": {
-          "npm_weekly_downloads": 368
-        },
         "category": "legal"
       },
       "versions": [
@@ -14189,7 +14845,7 @@
         "zh": "诉状要素核对"
       },
       "description": {
-        "en": "起诉状要素齐备性核对（按诉请、事实、证据、法条四要素核对文书齐备，仅提示差异，不作出定性结论）",
+        "en": "Check a pleading-element checklist for completeness and internal consistency — you get a list of which row, which column, and what to fix; the verdict stays with the reviewer.",
         "zh": "起诉状要素齐备性核对（按诉请、事实、证据、法条四要素核对文书齐备，仅提示差异，不作出定性结论）"
       },
       "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCIgcm9sZT0iaW1nIiBhcmlhLWxhYmVsPSJQbGVhZGluZyBlbGVtZW50IGNoZWNrIj4KICA8cmVjdCB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIHJ4PSIxMiIgZmlsbD0iIzBmNzY2ZSIvPgogIDxwYXRoIGQ9Ik0xNiAyMGgzMk0xNiAzMmgyMk0xNiA0NGgyNiIgc3Ryb2tlPSIjZmZmZmZmIiBzdHJva2Utd2lkdGg9IjQiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPgogIDxjaXJjbGUgY3g9IjUwIiBjeT0iNDYiIHI9IjkiIGZpbGw9IiNmZmZmZmYiLz4KICA8cGF0aCBkPSJNNDYgNDZsMyAzIDUtNiIgc3Ryb2tlPSIjMGY3NjZlIiBzdHJva2Utd2lkdGg9IjMiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgZmlsbD0ibm9uZSIvPgo8L3N2Zz4K",
@@ -14207,12 +14863,19 @@
           "pleading",
           "draft"
         ],
-        "sortKeys": {
-          "npm_weekly_downloads": 116
-        },
         "category": "legal"
       },
       "versions": [
+        {
+          "version": "0.2.14",
+          "publishTimestamp": 1795365029,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-0 <0.3.0 || >=0.2.3-0 <0.3.0-0"
+          }
+        },
         {
           "version": "0.2.13",
           "publishTimestamp": 1795339488,
@@ -14929,13 +15592,309 @@
       ]
     },
     {
+      "name": "dsh-finops-suite",
+      "title": {
+        "en": "Finance ops suite",
+        "zh": "财务运营套件"
+      },
+      "description": {
+        "en": "An install-only suite for DeepSeek Harness: e-invoicing (dsh-einvoice), bank reconciliation (dsh-bankrec), three-way match (dsh-ap-three-way) and travel reconciliation (dsh-travel-recon) pinned to one exact version set and installed together. The suite has no tool surface of its own — it reads no documents, makes no network calls, invokes no model, and ke...",
+        "zh": "面向 DeepSeek Harness 的纯安装型套件：把电子发票（dsh-einvoice）、银行对账（dsh-bankrec）、三单匹配（dsh-ap-three-way）与差旅对账（dsh-travel-recon）钉在同一组精确版本上一起装。套件本身没有工具面——不读单据、不联网、不调用模型，输入输出都留在本地。"
+      },
+      "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMTI4IDEyOCIgcm9sZT0iaW1nIiBhcmlhLWxhYmVsPSJGTyI+CiAgPHJlY3Qgd2lkdGg9IjEyOCIgaGVpZ2h0PSIxMjgiIHJ4PSIyOCIgZmlsbD0iIzBiMTAyMCIvPgogIDxyZWN0IHg9IjEwIiB5PSIxMCIgd2lkdGg9IjEwOCIgaGVpZ2h0PSIxMDgiIHJ4PSIyMiIgZmlsbD0iIzE0MWIzMCIgc3Ryb2tlPSIjNmVhOGZlIiBzdHJva2Utd2lkdGg9IjMiLz4KICA8dGV4dCB4PSI2NCIgeT0iNzYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiNlOGVkZjciIGZvbnQtZmFtaWx5PSJ1aS1tb25vc3BhY2UsU0ZNb25vLVJlZ3VsYXIsTWVubG8sbW9ub3NwYWNlIiBmb250LXNpemU9IjM0IiBmb250LXdlaWdodD0iNzAwIj5GTzwvdGV4dD4KPC9zdmc+",
+      "author": "PerryLink",
+      "homepage": "https://perrylink.github.io/dsh-plugins/packages/dsh-finops-suite.html",
+      "repository": {
+        "url": "https://github.com/PerryLink/dsh-finops-suite"
+      },
+      "metadata": {
+        "keywords": [
+          "deepseek-harness",
+          "dsh",
+          "dsh-plugin",
+          "dsh-bundle",
+          "perrylink",
+          "suite",
+          "finance"
+        ],
+        "sortKeys": {
+          "npm_weekly_downloads": 168
+        },
+        "category": "finance"
+      },
+      "versions": [
+        {
+          "version": "0.1.1",
+          "publishTimestamp": 1795364516,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.3 <0.3.0 || >=0.2.3-0 <0.3.0-0"
+          }
+        },
+        {
+          "version": "0.1.0",
+          "publishTimestamp": 1795339977,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.3 <0.3.0 || >=0.2.3-0 <0.3.0-0"
+          }
+        },
+        {
+          "version": "0.1.0-alpha.11",
+          "publishTimestamp": 1793794995,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.3 <0.3.0"
+          }
+        },
+        {
+          "version": "0.1.0-alpha.10",
+          "publishTimestamp": 1793633659,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.3 <0.3.0"
+          }
+        },
+        {
+          "version": "0.1.0-alpha.9",
+          "publishTimestamp": 1793598620,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.3 <0.3.0"
+          }
+        },
+        {
+          "version": "0.1.0-alpha.8",
+          "publishTimestamp": 1793595302,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.3 <0.3.0"
+          }
+        },
+        {
+          "version": "0.1.0-alpha.7",
+          "publishTimestamp": 1793536138,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.3 <0.3.0"
+          }
+        },
+        {
+          "version": "0.1.0-alpha.6",
+          "publishTimestamp": 1793515611,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.3 <0.3.0"
+          }
+        },
+        {
+          "version": "0.1.0-alpha.5",
+          "publishTimestamp": 1793508710,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.3 <0.3.0"
+          }
+        },
+        {
+          "version": "0.1.0-alpha.4",
+          "publishTimestamp": 1793507864,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.3 <0.3.0"
+          }
+        },
+        {
+          "version": "0.1.0-alpha.3",
+          "publishTimestamp": 1793466641,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.3 <0.3.0"
+          }
+        },
+        {
+          "version": "0.1.0-alpha.2",
+          "publishTimestamp": 1793463492,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.3 <0.3.0"
+          }
+        },
+        {
+          "version": "0.1.0-alpha.1",
+          "publishTimestamp": 1793462490,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.3 <0.3.0"
+          }
+        },
+        {
+          "version": "0.1.0-alpha.0",
+          "publishTimestamp": 1793458681,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.3 <0.3.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "dsh-invoice-ledger",
+      "title": {
+        "en": "Invoice ledger",
+        "zh": "发票台账"
+      },
+      "description": {
+        "en": "Check the whole invoice ledger before it is booked — every difference points at a row and carries its basis.",
+        "zh": "核对发票台账：重复报销、价税勾稽、抬头、日期、模板占位符，输出异常清单与规范化台账。"
+      },
+      "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCIgcm9sZT0iaW1nIiBhcmlhLWxhYmVsPSJJbnZvaWNlIGxlZGdlciI+CiAgPHJlY3Qgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiByeD0iMTIiIGZpbGw9IiMwZjc2NmUiLz4KICA8cGF0aCBkPSJNMTYgMjBoMzJNMTYgMzJoMjJNMTYgNDRoMjYiIHN0cm9rZT0iI2ZmZmZmZiIgc3Ryb2tlLXdpZHRoPSI0IiBzdHJva2UtbGluZWNhcD0icm91bmQiLz4KICA8Y2lyY2xlIGN4PSI1MCIgY3k9IjQ2IiByPSI5IiBmaWxsPSIjZmZmZmZmIi8+CiAgPHBhdGggZD0iTTQ2IDQ2bDMgMyA1LTYiIHN0cm9rZT0iIzBmNzY2ZSIgc3Ryb2tlLXdpZHRoPSIzIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGZpbGw9Im5vbmUiLz4KPC9zdmc+Cg==",
+      "author": "PerryLink",
+      "homepage": "https://github.com/PerryLink/dsh-invoice-ledger#readme",
+      "repository": {
+        "url": "https://github.com/PerryLink/dsh-invoice-ledger"
+      },
+      "metadata": {
+        "keywords": [
+          "deepseek-harness",
+          "dsh",
+          "dsh-plugin",
+          "cordis",
+          "invoice",
+          "ledger",
+          "reimbursement",
+          "duplicate"
+        ],
+        "category": "finance"
+      },
+      "versions": [
+        {
+          "version": "0.1.8",
+          "publishTimestamp": 1795364745,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-0 <0.3.0 || >=0.2.3-0 <0.3.0-0"
+          }
+        },
+        {
+          "version": "0.1.7",
+          "publishTimestamp": 1795339603,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-0 <0.3.0 || >=0.2.3-0 <0.3.0-0"
+          }
+        },
+        {
+          "version": "0.1.6",
+          "publishTimestamp": 1794238512,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-0 <0.3.0"
+          }
+        },
+        {
+          "version": "0.1.5",
+          "publishTimestamp": 1793774051,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-0 <0.3.0"
+          }
+        },
+        {
+          "version": "0.1.4",
+          "publishTimestamp": 1793419696,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-0 <0.3.0"
+          }
+        },
+        {
+          "version": "0.1.3",
+          "publishTimestamp": 1793419541,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-0 <0.3.0"
+          }
+        },
+        {
+          "version": "0.1.2",
+          "publishTimestamp": 1793376727,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-0 <0.3.0"
+          }
+        },
+        {
+          "version": "0.1.1",
+          "publishTimestamp": 1793189465,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-0 <0.3.0"
+          }
+        },
+        {
+          "version": "0.1.0",
+          "publishTimestamp": 1792775549,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-0 <0.3.0"
+          }
+        }
+      ]
+    },
+    {
       "name": "dsh-payroll-audit",
       "title": {
         "en": "Payroll audit",
         "zh": "算薪核验"
       },
       "description": {
-        "en": "按已核实的社保/公积金/个税参数核对工资表，逐条给出差异与依据，不代申报。",
+        "en": "Check a payroll sheet line by line against published social-insurance, housing-fund and income-tax parameters — every difference with its reason, clause and amount.",
         "zh": "按已核实的社保/公积金/个税参数核对工资表，逐条给出差异与依据，不代申报。"
       },
       "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCIgcm9sZT0iaW1nIiBhcmlhLWxhYmVsPSJQYXlyb2xsIGF1ZGl0Ij4KICA8cmVjdCB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIHJ4PSIxMiIgZmlsbD0iIzBmNzY2ZSIvPgogIDxwYXRoIGQ9Ik0xNiAyMGgzMk0xNiAzMmgyMk0xNiA0NGgyNiIgc3Ryb2tlPSIjZmZmZmZmIiBzdHJva2Utd2lkdGg9IjQiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPgogIDxjaXJjbGUgY3g9IjUwIiBjeT0iNDYiIHI9IjkiIGZpbGw9IiNmZmZmZmYiLz4KICA8cGF0aCBkPSJNNDYgNDZsMyAzIDUtNiIgc3Ryb2tlPSIjMGY3NjZlIiBzdHJva2Utd2lkdGg9IjMiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgZmlsbD0ibm9uZSIvPgo8L3N2Zz4K",
@@ -14953,12 +15912,19 @@
           "payroll",
           "social"
         ],
-        "sortKeys": {
-          "npm_weekly_downloads": 330
-        },
         "category": "finance"
       },
       "versions": [
+        {
+          "version": "0.1.6",
+          "publishTimestamp": 1795364860,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-0 <0.3.0 || >=0.2.3-0 <0.3.0-0"
+          }
+        },
         {
           "version": "0.1.5",
           "publishTimestamp": 1795339486,
@@ -15038,10 +16004,11 @@
         "zh": "差旅对账与政策检查"
       },
       "description": {
-        "en": "Travel order/invoice/card ingest, dedupe, three-way match, read-only policy check and ledger export.",
-        "zh": "差旅订单/发票/卡流水对账、去重与只读政策检查。"
+        "en": "Line up travel orders, invoices and card transactions in one pass — mismatches, duplicate claims and over-limit days, listed plainly.",
+        "zh": "本地对账插件：三份 CSV 进，一份两表 xlsx 台账出；不调模型、不联网、不上传。"
       },
       "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMTI4IDEyOCIgcm9sZT0iaW1nIiBhcmlhLWxhYmVsPSJUUiI+CiAgPHJlY3Qgd2lkdGg9IjEyOCIgaGVpZ2h0PSIxMjgiIHJ4PSIyOCIgZmlsbD0iIzBiMTAyMCIvPgogIDxyZWN0IHg9IjEwIiB5PSIxMCIgd2lkdGg9IjEwOCIgaGVpZ2h0PSIxMDgiIHJ4PSIyMiIgZmlsbD0iIzE0MWIzMCIgc3Ryb2tlPSIjNmVhOGZlIiBzdHJva2Utd2lkdGg9IjMiLz4KICA8dGV4dCB4PSI2NCIgeT0iNzYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiNlOGVkZjciIGZvbnQtZmFtaWx5PSJ1aS1tb25vc3BhY2UsU0ZNb25vLVJlZ3VsYXIsTWVubG8sbW9ub3NwYWNlIiBmb250LXNpemU9IjM0IiBmb250LXdlaWdodD0iNzAwIj5UUjwvdGV4dD4KPC9zdmc+",
+      "author": "PerryLink",
       "homepage": "https://perrylink.github.io/dsh-plugins/packages/dsh-travel-recon.html",
       "repository": {
         "url": "https://github.com/PerryLink/dsh-travel-recon"
@@ -15060,6 +16027,16 @@
         "category": "finance"
       },
       "versions": [
+        {
+          "version": "0.2.2",
+          "publishTimestamp": 1795365012,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.3 <0.4.0 || >=0.2.3-0 <0.3.0-0"
+          }
+        },
         {
           "version": "0.2.1",
           "publishTimestamp": 1795339511,
@@ -15210,8 +16187,7 @@
             "dsh": ">=0.2.1-rc.3 <0.3.0"
           }
         }
-      ],
-      "author": "PerryLink"
+      ]
     },
     {
       "name": "dsh-archive-check",
@@ -15400,6 +16376,9 @@
           "gongwen",
           "flow"
         ],
+        "sortKeys": {
+          "npm_weekly_downloads": 122
+        },
         "category": "government"
       },
       "versions": [
@@ -15692,7 +16671,7 @@
         "zh": "决策程序核对"
       },
       "description": {
-        "en": "三重一大决策台账核对（按前置研究、会议审议与决议记录核对程序留痕，仅提示差异，不作出定性结论）",
+        "en": "Turn one “three-important-and-one-large” decision register into a list of what is inconsistent, where, and what to fix — differences only, never a compliance verdict.",
         "zh": "三重一大决策台账核对（按前置研究、会议审议与决议记录核对程序留痕，仅提示差异，不作出定性结论）"
       },
       "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCIgcm9sZT0iaW1nIiBhcmlhLWxhYmVsPSJTT0UgZGVjaXNpb24gY2hlY2siPgogIDxyZWN0IHdpZHRoPSI2NCIgaGVpZ2h0PSI2NCIgcng9IjEyIiBmaWxsPSIjMGY3NjZlIi8+CiAgPHBhdGggZD0iTTE2IDIwaDMyTTE2IDMyaDIyTTE2IDQ0aDI2IiBzdHJva2U9IiNmZmZmZmYiIHN0cm9rZS13aWR0aD0iNCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+CiAgPGNpcmNsZSBjeD0iNTAiIGN5PSI0NiIgcj0iOSIgZmlsbD0iI2ZmZmZmZiIvPgogIDxwYXRoIGQ9Ik00NiA0NmwzIDMgNS02IiBzdHJva2U9IiMwZjc2NmUiIHN0cm9rZS13aWR0aD0iMyIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBmaWxsPSJub25lIi8+Cjwvc3ZnPgo=",
@@ -15713,6 +16692,16 @@
         "category": "government"
       },
       "versions": [
+        {
+          "version": "0.2.18",
+          "publishTimestamp": 1795365080,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-0 <0.3.0 || >=0.2.3-0 <0.3.0-0"
+          }
+        },
         {
           "version": "0.2.17",
           "publishTimestamp": 1795339478,
@@ -15882,7 +16871,7 @@
         "zh": "规程同步核对"
       },
       "description": {
-        "en": "作业规程与 FMEA／控制计划一致性核对（按编号与版本核对三份文件是否同步，仅提示差异，不作出定性结论）",
+        "en": "Line up a works-instruction register with the PFMEA and control plan it cites — and get told which row, which column, and what differs.",
         "zh": "作业规程与 FMEA／控制计划一致性核对（按编号与版本核对三份文件是否同步，仅提示差异，不作出定性结论）"
       },
       "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCIgcm9sZT0iaW1nIiBhcmlhLWxhYmVsPSJTT1Agc3luYyBjaGVjayI+CiAgPHJlY3Qgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiByeD0iMTIiIGZpbGw9IiMwZjc2NmUiLz4KICA8cGF0aCBkPSJNMTYgMjBoMzJNMTYgMzJoMjJNMTYgNDRoMjYiIHN0cm9rZT0iI2ZmZmZmZiIgc3Ryb2tlLXdpZHRoPSI0IiBzdHJva2UtbGluZWNhcD0icm91bmQiLz4KICA8Y2lyY2xlIGN4PSI1MCIgY3k9IjQ2IiByPSI5IiBmaWxsPSIjZmZmZmZmIi8+CiAgPHBhdGggZD0iTTQ2IDQ2bDMgMyA1LTYiIHN0cm9rZT0iIzBmNzY2ZSIgc3Ryb2tlLXdpZHRoPSIzIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGZpbGw9Im5vbmUiLz4KPC9zdmc+Cg==",
@@ -15903,6 +16892,16 @@
         "category": "government"
       },
       "versions": [
+        {
+          "version": "0.2.12",
+          "publishTimestamp": 1795365027,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-0 <0.3.0 || >=0.2.3-0 <0.3.0-0"
+          }
+        },
         {
           "version": "0.2.11",
           "publishTimestamp": 1795339641,
@@ -17047,7 +18046,7 @@
         "zh": "点评回复核对"
       },
       "description": {
-        "en": "在线点评回复台账核对（按回复时限、问题分类与整改状态核对台账闭环，仅提示差异，不作出定性结论）",
+        "en": "Check an online review-and-reply register line by line — which row, which column, what is missing.",
         "zh": "在线点评回复台账核对（按回复时限、问题分类与整改状态核对台账闭环，仅提示差异，不作出定性结论）"
       },
       "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCIgcm9sZT0iaW1nIiBhcmlhLWxhYmVsPSJPVEEgcmV2aWV3IHJlcGx5IGNoZWNrIj4KICA8cmVjdCB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIHJ4PSIxMiIgZmlsbD0iIzBmNzY2ZSIvPgogIDxwYXRoIGQ9Ik0xNiAyMGgzMk0xNiAzMmgyMk0xNiA0NGgyNiIgc3Ryb2tlPSIjZmZmZmZmIiBzdHJva2Utd2lkdGg9IjQiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPgogIDxjaXJjbGUgY3g9IjUwIiBjeT0iNDYiIHI9IjkiIGZpbGw9IiNmZmZmZmYiLz4KICA8cGF0aCBkPSJNNDYgNDZsMyAzIDUtNiIgc3Ryb2tlPSIjMGY3NjZlIiBzdHJva2Utd2lkdGg9IjMiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgZmlsbD0ibm9uZSIvPgo8L3N2Zz4K",
@@ -17068,6 +18067,16 @@
         "category": "quality"
       },
       "versions": [
+        {
+          "version": "0.2.15",
+          "publishTimestamp": 1795364959,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-0 <0.3.0 || >=0.2.3-0 <0.3.0-0"
+          }
+        },
         {
           "version": "0.2.14",
           "publishTimestamp": 1795339840,
@@ -17197,10 +18206,11 @@
         "zh": "PIM 目录 lint"
       },
       "description": {
-        "en": "PIM catalog lint: required fields, duplicate SKU, GTIN check digit and price.",
-        "zh": "PIM 目录 lint：必填、重复 SKU、GTIN 校验位与价格。"
+        "en": "Catch duplicate SKUs, broken GTIN check digits, and malformed prices before the catalog goes live.",
+        "zh": "面向 DeepSeek Harness 的纯本地 PIM 目录 lint：读 UTF-8 CSV，按 GS1 规则校条码，把每条问题写成「SKU / 字段 / 错误码」；不联网、不调用模型、不改原文件。"
       },
       "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMTI4IDEyOCIgcm9sZT0iaW1nIiBhcmlhLWxhYmVsPSJQSU0iPgogIDxyZWN0IHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiByeD0iMjgiIGZpbGw9IiMwYjEwMjAiLz4KICA8cmVjdCB4PSIxMCIgeT0iMTAiIHdpZHRoPSIxMDgiIGhlaWdodD0iMTA4IiByeD0iMjIiIGZpbGw9IiMxNDFiMzAiIHN0cm9rZT0iIzZlYThmZSIgc3Ryb2tlLXdpZHRoPSIzIi8+CiAgPHRleHQgeD0iNjQiIHk9Ijc2IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjZThlZGY3IiBmb250LWZhbWlseT0idWktbW9ub3NwYWNlLFNGTW9uby1SZWd1bGFyLE1lbmxvLG1vbm9zcGFjZSIgZm9udC1zaXplPSIyOCIgZm9udC13ZWlnaHQ9IjcwMCI+UElNPC90ZXh0Pgo8L3N2Zz4=",
+      "author": "PerryLink",
       "homepage": "https://perrylink.github.io/dsh-plugins/packages/dsh-pim-lint.html",
       "repository": {
         "url": "https://github.com/PerryLink/dsh-pim-lint"
@@ -17216,12 +18226,19 @@
           "catalog",
           "lint"
         ],
-        "sortKeys": {
-          "npm_weekly_downloads": 142
-        },
         "category": "quality"
       },
       "versions": [
+        {
+          "version": "0.2.2",
+          "publishTimestamp": 1795364953,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.3 <0.4.0 || >=0.2.3-0 <0.3.0-0"
+          }
+        },
         {
           "version": "0.2.1",
           "publishTimestamp": 1795339482,
@@ -17372,8 +18389,7 @@
             "dsh": ">=0.2.1-rc.3 <0.3.0"
           }
         }
-      ],
-      "author": "PerryLink"
+      ]
     },
     {
       "name": "dsh-pipeline-check",
@@ -17382,7 +18398,7 @@
         "zh": "项目链条核对"
       },
       "description": {
-        "en": "项目全流程文件链条核对（按环节先后与金额口径核对链条自洽，仅提示差异，不作出定性结论）",
+        "en": "Know exactly what the register is missing — before the review starts, row by row and column by column.",
         "zh": "项目全流程文件链条核对（按环节先后与金额口径核对链条自洽，仅提示差异，不作出定性结论）"
       },
       "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCIgcm9sZT0iaW1nIiBhcmlhLWxhYmVsPSJQaXBlbGluZSBjaGFpbiBjaGVjayI+CiAgPHJlY3Qgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiByeD0iMTIiIGZpbGw9IiMwZjc2NmUiLz4KICA8cGF0aCBkPSJNMTYgMjBoMzJNMTYgMzJoMjJNMTYgNDRoMjYiIHN0cm9rZT0iI2ZmZmZmZiIgc3Ryb2tlLXdpZHRoPSI0IiBzdHJva2UtbGluZWNhcD0icm91bmQiLz4KICA8Y2lyY2xlIGN4PSI1MCIgY3k9IjQ2IiByPSI5IiBmaWxsPSIjZmZmZmZmIi8+CiAgPHBhdGggZD0iTTQ2IDQ2bDMgMyA1LTYiIHN0cm9rZT0iIzBmNzY2ZSIgc3Ryb2tlLXdpZHRoPSIzIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGZpbGw9Im5vbmUiLz4KPC9zdmc+Cg==",
@@ -17399,12 +18415,19 @@
           "cordis",
           "pipeline"
         ],
-        "sortKeys": {
-          "npm_weekly_downloads": 251
-        },
         "category": "quality"
       },
       "versions": [
+        {
+          "version": "0.2.12",
+          "publishTimestamp": 1795364869,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-0 <0.3.0 || >=0.2.3-0 <0.3.0-0"
+          }
+        },
         {
           "version": "0.2.11",
           "publishTimestamp": 1795339536,
@@ -17514,10 +18537,11 @@
         "zh": "安装诊断"
       },
       "description": {
-        "en": "Read-only install doctor: capability snapshot, tarball assert and install diagnosis.",
-        "zh": "只读安装诊断：能力快照、tarball 断言与安装日志分类。"
+        "en": "Before you install a third-party DSH package, see what capabilities it declares, how risky it is, and why an install failed — read-only, and nothing in your environment changes.",
+        "zh": "在安装第三方 DSH 包之前，先看清它声明了什么能力、风险几级、装失败卡在哪一步——只读，不动你的环境。"
       },
       "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMTI4IDEyOCIgcm9sZT0iaW1nIiBhcmlhLWxhYmVsPSJQTCI+CiAgPHJlY3Qgd2lkdGg9IjEyOCIgaGVpZ2h0PSIxMjgiIHJ4PSIyOCIgZmlsbD0iIzBiMTAyMCIvPgogIDxyZWN0IHg9IjEwIiB5PSIxMCIgd2lkdGg9IjEwOCIgaGVpZ2h0PSIxMDgiIHJ4PSIyMiIgZmlsbD0iIzE0MWIzMCIgc3Ryb2tlPSIjNmVhOGZlIiBzdHJva2Utd2lkdGg9IjMiLz4KICA8dGV4dCB4PSI2NCIgeT0iNzYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiNlOGVkZjciIGZvbnQtZmFtaWx5PSJ1aS1tb25vc3BhY2UsU0ZNb25vLVJlZ3VsYXIsTWVubG8sbW9ub3NwYWNlIiBmb250LXNpemU9IjM0IiBmb250LXdlaWdodD0iNzAwIj5QTDwvdGV4dD4KPC9zdmc+",
+      "author": "PerryLink",
       "homepage": "https://perrylink.github.io/dsh-plugins/packages/dsh-policy-ledger.html",
       "repository": {
         "url": "https://github.com/PerryLink/dsh-policy-ledger"
@@ -17534,12 +18558,19 @@
           "capability",
           "security"
         ],
-        "sortKeys": {
-          "npm_weekly_downloads": 133
-        },
         "category": "quality"
       },
       "versions": [
+        {
+          "version": "0.3.2",
+          "publishTimestamp": 1795364902,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.3 <0.4.0 || >=0.2.3-0 <0.3.0-0"
+          }
+        },
         {
           "version": "0.3.1",
           "publishTimestamp": 1795339463,
@@ -17700,8 +18731,7 @@
             "dsh": ">=0.2.1-rc.3 <0.3.0"
           }
         }
-      ],
-      "author": "PerryLink"
+      ]
     },
     {
       "name": "dsh-ppap-check",
@@ -17710,7 +18740,7 @@
         "zh": "PPAP 要素核对"
       },
       "description": {
-        "en": "PPAP 提交要素齐备性核对（按公开的 PPAP 手册与提交等级核对要素齐备与版本填写，仅提示差异，不作出定性结论）",
+        "en": "Check a PPAP submission-element checklist for completeness and internal consistency — you get a list of which row, which column, and what to fix; the verdict stays with the reviewer.",
         "zh": "PPAP 提交要素齐备性核对（按公开的 PPAP 手册与提交等级核对要素齐备与版本填写，仅提示差异，不作出定性结论）"
       },
       "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCIgcm9sZT0iaW1nIiBhcmlhLWxhYmVsPSJQUEFQIGVsZW1lbnQgY2hlY2siPgogIDxyZWN0IHdpZHRoPSI2NCIgaGVpZ2h0PSI2NCIgcng9IjEyIiBmaWxsPSIjMGY3NjZlIi8+CiAgPHBhdGggZD0iTTE2IDIwaDMyTTE2IDMyaDIyTTE2IDQ0aDI2IiBzdHJva2U9IiNmZmZmZmYiIHN0cm9rZS13aWR0aD0iNCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+CiAgPGNpcmNsZSBjeD0iNTAiIGN5PSI0NiIgcj0iOSIgZmlsbD0iI2ZmZmZmZiIvPgogIDxwYXRoIGQ9Ik00NiA0NmwzIDMgNS02IiBzdHJva2U9IiMwZjc2NmUiIHN0cm9rZS13aWR0aD0iMyIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBmaWxsPSJub25lIi8+Cjwvc3ZnPgo=",
@@ -17727,12 +18757,19 @@
           "cordis",
           "ppap"
         ],
-        "sortKeys": {
-          "npm_weekly_downloads": 236
-        },
         "category": "quality"
       },
       "versions": [
+        {
+          "version": "0.2.13",
+          "publishTimestamp": 1795364978,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-0 <0.3.0 || >=0.2.3-0 <0.3.0-0"
+          }
+        },
         {
           "version": "0.2.12",
           "publishTimestamp": 1795339565,
@@ -17852,10 +18889,11 @@
         "zh": "QMS NCR、CAPA 与 8D"
       },
       "description": {
-        "en": "QMS NCR ingest, batch alias resolution, impact evaluation, CAPA and 8D state.",
-        "zh": "QMS NCR 入库、批次别名、影响评估、CAPA 与 8D。"
+        "en": "Deduplicate NCR rows into a local store, find the affected batches, then open a CAPA or an 8D.",
+        "zh": "面向 DeepSeek Harness 的本地质量事件插件：读固定表头的 CSV 台账，去重、解析批次别名、评估库存/途中影响，按 D1–D8 与 CAPA 状态推进；全程不联网、不调用模型。"
       },
       "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMTI4IDEyOCIgcm9sZT0iaW1nIiBhcmlhLWxhYmVsPSJRTVMiPgogIDxyZWN0IHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiByeD0iMjgiIGZpbGw9IiMwYjEwMjAiLz4KICA8cmVjdCB4PSIxMCIgeT0iMTAiIHdpZHRoPSIxMDgiIGhlaWdodD0iMTA4IiByeD0iMjIiIGZpbGw9IiMxNDFiMzAiIHN0cm9rZT0iIzZlYThmZSIgc3Ryb2tlLXdpZHRoPSIzIi8+CiAgPHRleHQgeD0iNjQiIHk9Ijc2IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjZThlZGY3IiBmb250LWZhbWlseT0idWktbW9ub3NwYWNlLFNGTW9uby1SZWd1bGFyLE1lbmxvLG1vbm9zcGFjZSIgZm9udC1zaXplPSIyOCIgZm9udC13ZWlnaHQ9IjcwMCI+UU1TPC90ZXh0Pgo8L3N2Zz4=",
+      "author": "PerryLink",
       "homepage": "https://perrylink.github.io/dsh-plugins/packages/dsh-qms-capa.html",
       "repository": {
         "url": "https://github.com/PerryLink/dsh-qms-capa"
@@ -17872,12 +18910,19 @@
           "8d",
           "manufacturing"
         ],
-        "sortKeys": {
-          "npm_weekly_downloads": 263
-        },
         "category": "quality"
       },
       "versions": [
+        {
+          "version": "0.2.2",
+          "publishTimestamp": 1795364956,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.3 <0.4.0 || >=0.2.3-0 <0.3.0-0"
+          }
+        },
         {
           "version": "0.2.1",
           "publishTimestamp": 1795339552,
@@ -18018,8 +19063,7 @@
             "dsh": ">=0.2.1-rc.3 <0.3.0"
           }
         }
-      ],
-      "author": "PerryLink"
+      ]
     },
     {
       "name": "dsh-repair-order-qc",
@@ -18028,7 +19072,7 @@
         "zh": "维修工单核对"
       },
       "description": {
-        "en": "维修工单结算核对（按项目金额、配件工时合计与结算总额核对算术自洽，仅提示差异，不作出定性结论）",
+        "en": "Check one motor-vehicle repair work order and get back a line-by-line list of which row, which column, and what differs.",
         "zh": "维修工单结算核对（按项目金额、配件工时合计与结算总额核对算术自洽，仅提示差异，不作出定性结论）"
       },
       "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCIgcm9sZT0iaW1nIiBhcmlhLWxhYmVsPSJSZXBhaXIgb3JkZXIgY2hlY2siPgogIDxyZWN0IHdpZHRoPSI2NCIgaGVpZ2h0PSI2NCIgcng9IjEyIiBmaWxsPSIjMGY3NjZlIi8+CiAgPHBhdGggZD0iTTE2IDIwaDMyTTE2IDMyaDIyTTE2IDQ0aDI2IiBzdHJva2U9IiNmZmZmZmYiIHN0cm9rZS13aWR0aD0iNCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+CiAgPGNpcmNsZSBjeD0iNTAiIGN5PSI0NiIgcj0iOSIgZmlsbD0iI2ZmZmZmZiIvPgogIDxwYXRoIGQ9Ik00NiA0NmwzIDMgNS02IiBzdHJva2U9IiMwZjc2NmUiIHN0cm9rZS13aWR0aD0iMyIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBmaWxsPSJub25lIi8+Cjwvc3ZnPgo=",
@@ -18046,12 +19090,19 @@
           "repair",
           "order"
         ],
-        "sortKeys": {
-          "npm_weekly_downloads": 253
-        },
         "category": "quality"
       },
       "versions": [
+        {
+          "version": "0.2.14",
+          "publishTimestamp": 1795364934,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-0 <0.3.0 || >=0.2.3-0 <0.3.0-0"
+          }
+        },
         {
           "version": "0.2.13",
           "publishTimestamp": 1795339593,
@@ -18171,7 +19222,7 @@
         "zh": "审稿回应核对"
       },
       "description": {
-        "en": "审稿意见逐条回应覆盖核对（按意见与回应一一对应核对覆盖完整性，仅提示差异，不作出定性结论）",
+        "en": "Check every review comment gets an answer — and that the paper trail says what changed and where.",
         "zh": "审稿意见逐条回应覆盖核对（按意见与回应一一对应核对覆盖完整性，仅提示差异，不作出定性结论）"
       },
       "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCIgcm9sZT0iaW1nIiBhcmlhLWxhYmVsPSJSZXZpZXcgcmVwbHkgY2hlY2siPgogIDxyZWN0IHdpZHRoPSI2NCIgaGVpZ2h0PSI2NCIgcng9IjEyIiBmaWxsPSIjMGY3NjZlIi8+CiAgPHBhdGggZD0iTTE2IDIwaDMyTTE2IDMyaDIyTTE2IDQ0aDI2IiBzdHJva2U9IiNmZmZmZmYiIHN0cm9rZS13aWR0aD0iNCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+CiAgPGNpcmNsZSBjeD0iNTAiIGN5PSI0NiIgcj0iOSIgZmlsbD0iI2ZmZmZmZiIvPgogIDxwYXRoIGQ9Ik00NiA0NmwzIDMgNS02IiBzdHJva2U9IiMwZjc2NmUiIHN0cm9rZS13aWR0aD0iMyIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBmaWxsPSJub25lIi8+Cjwvc3ZnPgo=",
@@ -18192,6 +19243,16 @@
         "category": "quality"
       },
       "versions": [
+        {
+          "version": "0.2.12",
+          "publishTimestamp": 1795364982,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-0 <0.3.0 || >=0.2.3-0 <0.3.0-0"
+          }
+        },
         {
           "version": "0.2.11",
           "publishTimestamp": 1795339445,
@@ -18664,7 +19725,7 @@
         "zh": "控制图常数核对"
       },
       "description": {
-        "en": "控制图常数与过程能力指数核对（按 GB/T 4091 的常规控制图常数表核对控制限与 Cp/Cpk 的自洽性，仅提示差异，不作出定性结论）",
+        "en": "Check a control-chart register before it reaches review — which row, which column, what differs, item by item.",
         "zh": "控制图常数与过程能力指数核对（按 GB/T 4091 的常规控制图常数表核对控制限与 Cp/Cpk 的自洽性，仅提示差异，不作出定性结论）"
       },
       "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCIgcm9sZT0iaW1nIiBhcmlhLWxhYmVsPSJTUEMgY29uc3RhbnQgY2hlY2siPgogIDxyZWN0IHdpZHRoPSI2NCIgaGVpZ2h0PSI2NCIgcng9IjEyIiBmaWxsPSIjMGY3NjZlIi8+CiAgPHBhdGggZD0iTTE2IDIwaDMyTTE2IDMyaDIyTTE2IDQ0aDI2IiBzdHJva2U9IiNmZmZmZmYiIHN0cm9rZS13aWR0aD0iNCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+CiAgPGNpcmNsZSBjeD0iNTAiIGN5PSI0NiIgcj0iOSIgZmlsbD0iI2ZmZmZmZiIvPgogIDxwYXRoIGQ9Ik00NiA0NmwzIDMgNS02IiBzdHJva2U9IiMwZjc2NmUiIHN0cm9rZS13aWR0aD0iMyIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBmaWxsPSJub25lIi8+Cjwvc3ZnPgo=",
@@ -18685,6 +19746,16 @@
         "category": "quality"
       },
       "versions": [
+        {
+          "version": "0.2.12",
+          "publishTimestamp": 1795365067,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-0 <0.3.0 || >=0.2.3-0 <0.3.0-0"
+          }
+        },
         {
           "version": "0.2.11",
           "publishTimestamp": 1795339516,
@@ -19147,7 +20218,7 @@
         "zh": "质保索赔核对"
       },
       "description": {
-        "en": "质保期与索赔金额核对（按质保期月数与里程、索赔金额算式核对自洽，仅提示差异，不作出定性结论）",
+        "en": "Point out, claim by claim, every arithmetic and period inconsistency in a warranty claim register — which row, which column, what differs.",
         "zh": "质保期与索赔金额核对（按质保期月数与里程、索赔金额算式核对自洽，仅提示差异，不作出定性结论）"
       },
       "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCIgcm9sZT0iaW1nIiBhcmlhLWxhYmVsPSJXYXJyYW50eSBjbGFpbSBjaGVjayI+CiAgPHJlY3Qgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiByeD0iMTIiIGZpbGw9IiMwZjc2NmUiLz4KICA8cGF0aCBkPSJNMTYgMjBoMzJNMTYgMzJoMjJNMTYgNDRoMjYiIHN0cm9rZT0iI2ZmZmZmZiIgc3Ryb2tlLXdpZHRoPSI0IiBzdHJva2UtbGluZWNhcD0icm91bmQiLz4KICA8Y2lyY2xlIGN4PSI1MCIgY3k9IjQ2IiByPSI5IiBmaWxsPSIjZmZmZmZmIi8+CiAgPHBhdGggZD0iTTQ2IDQ2bDMgMyA1LTYiIHN0cm9rZT0iIzBmNzY2ZSIgc3Ryb2tlLXdpZHRoPSIzIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGZpbGw9Im5vbmUiLz4KPC9zdmc+Cg==",
@@ -19168,6 +20239,16 @@
         "category": "quality"
       },
       "versions": [
+        {
+          "version": "0.2.14",
+          "publishTimestamp": 1795365035,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-0 <0.3.0 || >=0.2.3-0 <0.3.0-0"
+          }
+        },
         {
           "version": "0.2.13",
           "publishTimestamp": 1795339723,
@@ -19513,9 +20594,6 @@
           "notebook",
           "reproducibility"
         ],
-        "sortKeys": {
-          "npm_weekly_downloads": 275
-        },
         "category": "data"
       },
       "versions": [
@@ -19569,7 +20647,7 @@
         "zh": "表格摄取"
       },
       "description": {
-        "en": "把 docx/xlsx/csv 转成规则检查器能吃的表格 JSON，带候选表、表头识别、预览与置信度。",
+        "en": "Turn docx, xlsx and csv files into the table JSON a rule checker can consume — and say which table it picked, and whether it is sure.",
         "zh": "把 docx/xlsx/csv 转成规则检查器能吃的表格 JSON，带候选表、表头识别、预览与置信度。"
       },
       "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCIgcm9sZT0iaW1nIiBhcmlhLWxhYmVsPSJUYWJsZSBpbmdlc3QiPgogIDxyZWN0IHdpZHRoPSI2NCIgaGVpZ2h0PSI2NCIgcng9IjEyIiBmaWxsPSIjMGY3NjZlIi8+CiAgPHBhdGggZD0iTTE2IDIwaDMyTTE2IDMyaDIyTTE2IDQ0aDI2IiBzdHJva2U9IiNmZmZmZmYiIHN0cm9rZS13aWR0aD0iNCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+CiAgPGNpcmNsZSBjeD0iNTAiIGN5PSI0NiIgcj0iOSIgZmlsbD0iI2ZmZmZmZiIvPgogIDxwYXRoIGQ9Ik00NiA0NmwzIDMgNS02IiBzdHJva2U9IiMwZjc2NmUiIHN0cm9rZS13aWR0aD0iMyIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBmaWxsPSJub25lIi8+Cjwvc3ZnPgo=",
@@ -19593,6 +20671,16 @@
         "category": "data"
       },
       "versions": [
+        {
+          "version": "0.2.6",
+          "publishTimestamp": 1795365046,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-0 <0.3.0 || >=0.2.3-0 <0.3.0-0"
+          }
+        },
         {
           "version": "0.2.5",
           "publishTimestamp": 1795339535,
@@ -20885,9 +21973,6 @@
           "acp",
           "json-rpc"
         ],
-        "sortKeys": {
-          "npm_weekly_downloads": 2076
-        },
         "category": "integration"
       },
       "versions": [
@@ -21282,9 +22367,6 @@
           "observability",
           "panel"
         ],
-        "sortKeys": {
-          "npm_weekly_downloads": 3249
-        },
         "category": "integration"
       },
       "versions": [
@@ -21729,9 +22811,6 @@
           "llm-api",
           "tooling"
         ],
-        "sortKeys": {
-          "npm_weekly_downloads": 362
-        },
         "category": "integration"
       },
       "versions": [
@@ -21817,9 +22896,6 @@
           "local-inference",
           "cordis-plugin"
         ],
-        "sortKeys": {
-          "npm_weekly_downloads": 280
-        },
         "category": "integration"
       },
       "versions": [
@@ -21934,9 +23010,6 @@
           "attachment",
           "phone"
         ],
-        "sortKeys": {
-          "npm_weekly_downloads": 467
-        },
         "category": "integration"
       },
       "versions": [
@@ -22044,9 +23117,6 @@
           "notify",
           "remote-control"
         ],
-        "sortKeys": {
-          "npm_weekly_downloads": 596
-        },
         "category": "integration"
       },
       "versions": [
@@ -22728,6 +23798,9 @@
           "context-engineering",
           "llm-cache"
         ],
+        "sortKeys": {
+          "npm_weekly_downloads": 689
+        },
         "category": "observability"
       },
       "versions": [
@@ -24612,9 +25685,6 @@
           "output-styles",
           "claude-code"
         ],
-        "sortKeys": {
-          "npm_weekly_downloads": 768
-        },
         "category": "ux"
       },
       "versions": [
@@ -26900,9 +27970,6 @@
           "usn",
           "fts"
         ],
-        "sortKeys": {
-          "npm_weekly_downloads": 2751
-        },
         "category": "other"
       },
       "versions": [
@@ -27431,8 +28498,16 @@
     },
     {
       "name": "dsh-pdf-table",
-      "title": "dsh-pdf-table",
-      "description": "Extract text-layer tables from a PDF and export CSV; no OCR, scanned PDFs are not supported.",
+      "title": {
+        "en": "Pdf table",
+        "zh": "Pdf table"
+      },
+      "description": {
+        "en": "Turn the table inside a text-layer PDF into rows and columns, then export a CSV you can reconcile.",
+        "zh": "面向 DeepSeek Harness 的纯本地 PDF 表格抽取工具：pdfinspect 看有没有文本层，pdftables 按坐标还原行列，pdftocsv 落成带引号转义的 CSV——不联网、不调用模型、不上传；扫描件不做 OCR。"
+      },
+      "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMTI4IDEyOCIgcm9sZT0iaW1nIiBhcmlhLWxhYmVsPSJQREYgdGFibGUiPgogIDxyZWN0IHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiByeD0iMjgiIGZpbGw9IiMwYjEwMjAiLz4KICA8cmVjdCB4PSIxMCIgeT0iMTAiIHdpZHRoPSIxMDgiIGhlaWdodD0iMTA4IiByeD0iMjIiIGZpbGw9IiMxNDFiMzAiIHN0cm9rZT0iIzZlYThmZSIgc3Ryb2tlLXdpZHRoPSIzIi8+CiAgPHJlY3QgeD0iMjgiIHk9IjI2IiB3aWR0aD0iNzIiIGhlaWdodD0iNzYiIHJ4PSI4IiBmaWxsPSIjZjRmN2ZmIiBvcGFjaXR5PSIwLjk2Ii8+CiAgPHBhdGggZD0iTTI4IDUwaDcyTTI4IDcyaDcyTTUyIDI2djc2IiBzdHJva2U9IiM2ZWE4ZmUiIHN0cm9rZS13aWR0aD0iNCIvPgogIDxwYXRoIGQ9Ik00MCA2MGw4IDgtOCA4TTYyIDY4aDEyIiBzdHJva2U9IiMwYjEwMjAiIHN0cm9rZS13aWR0aD0iNCIgZmlsbD0ibm9uZSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+Cjwvc3ZnPgo=",
+      "author": "PerryLink",
       "homepage": "https://perrylink.github.io/dsh-plugins/",
       "repository": {
         "url": "https://github.com/PerryLink/dsh-pdf-table"
@@ -27448,12 +28523,19 @@
           "pdfjs",
           "perrylink"
         ],
-        "sortKeys": {
-          "npm_weekly_downloads": 61
-        },
         "category": "other"
       },
       "versions": [
+        {
+          "version": "0.2.2",
+          "publishTimestamp": 1795365003,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.3 <0.4.0 || >=0.2.3-0 <0.3.0-0"
+          }
+        },
         {
           "version": "0.2.1",
           "publishTimestamp": 1795339967,
@@ -27494,9 +28576,7 @@
             "dsh": ">=0.2.1-rc.3 <0.4.0"
           }
         }
-      ],
-      "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMTI4IDEyOCIgcm9sZT0iaW1nIiBhcmlhLWxhYmVsPSJQREYgdGFibGUiPgogIDxyZWN0IHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiByeD0iMjgiIGZpbGw9IiMwYjEwMjAiLz4KICA8cmVjdCB4PSIxMCIgeT0iMTAiIHdpZHRoPSIxMDgiIGhlaWdodD0iMTA4IiByeD0iMjIiIGZpbGw9IiMxNDFiMzAiIHN0cm9rZT0iIzZlYThmZSIgc3Ryb2tlLXdpZHRoPSIzIi8+CiAgPHJlY3QgeD0iMjgiIHk9IjI2IiB3aWR0aD0iNzIiIGhlaWdodD0iNzYiIHJ4PSI4IiBmaWxsPSIjZjRmN2ZmIiBvcGFjaXR5PSIwLjk2Ii8+CiAgPHBhdGggZD0iTTI4IDUwaDcyTTI4IDcyaDcyTTUyIDI2djc2IiBzdHJva2U9IiM2ZWE4ZmUiIHN0cm9rZS13aWR0aD0iNCIvPgogIDxwYXRoIGQ9Ik00MCA2MGw4IDgtOCA4TTYyIDY4aDEyIiBzdHJva2U9IiMwYjEwMjAiIHN0cm9rZS13aWR0aD0iNCIgZmlsbD0ibm9uZSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+Cjwvc3ZnPgo=",
-      "author": "PerryLink"
+      ]
     },
     {
       "name": "dsh-plugin-guide",
@@ -27741,9 +28821,6 @@
           "no-network",
           "phocinae"
         ],
-        "sortKeys": {
-          "npm_weekly_downloads": 341
-        },
         "category": "other"
       },
       "versions": [
@@ -27833,9 +28910,6 @@
           "checker",
           "typescript"
         ],
-        "sortKeys": {
-          "npm_weekly_downloads": 230
-        },
         "category": "other"
       },
       "versions": [
@@ -27924,8 +28998,16 @@
     },
     {
       "name": "dsh-progress-payment",
-      "title": "dsh-progress-payment",
-      "description": "Audit construction progress-payment declarations against the contract baseline and export a review worksheet; amounts in integer cents.",
+      "title": {
+        "en": "Progress payment",
+        "zh": "Progress payment"
+      },
+      "description": {
+        "en": "Confirm this period's progress payment against the contract baseline: integer-cent amounts, cumulative ratio, over-quantity/price/duplicate issue list → review worksheet CSV.",
+        "zh": "按合同基准确认本期进度款：整数分金额、累计比例、超量/单价/重复项问题清单 → 审核底稿 CSV。"
+      },
+      "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMTI4IDEyOCIgcm9sZT0iaW1nIiBhcmlhLWxhYmVsPSJQcm9ncmVzcyBwYXltZW50IGF1ZGl0Ij4KICA8cmVjdCB3aWR0aD0iMTI4IiBoZWlnaHQ9IjEyOCIgcng9IjI4IiBmaWxsPSIjMGIxMDIwIi8+CiAgPHJlY3QgeD0iMTAiIHk9IjEwIiB3aWR0aD0iMTA4IiBoZWlnaHQ9IjEwOCIgcng9IjIyIiBmaWxsPSIjMTQxYjMwIiBzdHJva2U9IiNmMGI0MjkiIHN0cm9rZS13aWR0aD0iMyIvPgogIDxyZWN0IHg9IjI2IiB5PSIyNCIgd2lkdGg9Ijc2IiBoZWlnaHQ9IjgyIiByeD0iOCIgZmlsbD0iI2Y0ZjdmZiIgb3BhY2l0eT0iMC45NiIvPgogIDxyZWN0IHg9IjQyIiB5PSIxOCIgd2lkdGg9IjQ0IiBoZWlnaHQ9IjE0IiByeD0iNSIgZmlsbD0iI2YwYjQyOSIvPgogIDxwYXRoIGQ9Ik00MCA1Mmg0OE00MCA2NmgzMk00MCA4MGgyMiIgc3Ryb2tlPSIjNmVhOGZlIiBzdHJva2Utd2lkdGg9IjQiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPgogIDxwYXRoIGQ9Ik04NiA3Mmw4IDggMTQtMTYiIHN0cm9rZT0iIzFhN2YzNyIgc3Ryb2tlLXdpZHRoPSI1IiBmaWxsPSJub25lIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPC9zdmc+Cg==",
+      "author": "PerryLink",
       "homepage": "https://perrylink.github.io/dsh-plugins/packages/dsh-progress-payment.html",
       "repository": {
         "url": "https://github.com/PerryLink/dsh-progress-payment"
@@ -27941,12 +29023,19 @@
           "csv",
           "perrylink"
         ],
-        "sortKeys": {
-          "npm_weekly_downloads": 36
-        },
         "category": "other"
       },
       "versions": [
+        {
+          "version": "0.2.2",
+          "publishTimestamp": 1795364917,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.3 <0.4.0 || >=0.2.3-0 <0.3.0-0"
+          }
+        },
         {
           "version": "0.2.1",
           "publishTimestamp": 1795339984,
@@ -27987,14 +29076,20 @@
             "dsh": ">=0.2.1-rc.3 <0.4.0"
           }
         }
-      ],
-      "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMTI4IDEyOCIgcm9sZT0iaW1nIiBhcmlhLWxhYmVsPSJQcm9ncmVzcyBwYXltZW50IGF1ZGl0Ij4KICA8cmVjdCB3aWR0aD0iMTI4IiBoZWlnaHQ9IjEyOCIgcng9IjI4IiBmaWxsPSIjMGIxMDIwIi8+CiAgPHJlY3QgeD0iMTAiIHk9IjEwIiB3aWR0aD0iMTA4IiBoZWlnaHQ9IjEwOCIgcng9IjIyIiBmaWxsPSIjMTQxYjMwIiBzdHJva2U9IiNmMGI0MjkiIHN0cm9rZS13aWR0aD0iMyIvPgogIDxyZWN0IHg9IjI2IiB5PSIyNCIgd2lkdGg9Ijc2IiBoZWlnaHQ9IjgyIiByeD0iOCIgZmlsbD0iI2Y0ZjdmZiIgb3BhY2l0eT0iMC45NiIvPgogIDxyZWN0IHg9IjQyIiB5PSIxOCIgd2lkdGg9IjQ0IiBoZWlnaHQ9IjE0IiByeD0iNSIgZmlsbD0iI2YwYjQyOSIvPgogIDxwYXRoIGQ9Ik00MCA1Mmg0OE00MCA2NmgzMk00MCA4MGgyMiIgc3Ryb2tlPSIjNmVhOGZlIiBzdHJva2Utd2lkdGg9IjQiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPgogIDxwYXRoIGQ9Ik04NiA3Mmw4IDggMTQtMTYiIHN0cm9rZT0iIzFhN2YzNyIgc3Ryb2tlLXdpZHRoPSI1IiBmaWxsPSJub25lIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPC9zdmc+Cg==",
-      "author": "PerryLink"
+      ]
     },
     {
       "name": "dsh-provider-params",
-      "title": "dsh-provider-params",
-      "description": "Vendor parameter mapping and deterministic JSON repair for DeepSeek Harness: params_map/params_compare/params_vendors map temperature, top_p, max_tokens, stop, system and related fields across 11 LLM vendors, and json_repair fixes broken JSON tool output without fabricating data.",
+      "title": {
+        "en": "Provider params",
+        "zh": "Provider params"
+      },
+      "description": {
+        "en": "Map request parameters across 11 LLM vendors, then repair broken JSON with fixed rules — every step leaves an auditable record.",
+        "zh": "把 11 家模型厂商的请求参数互相映射，再把坏掉的 JSON 按固定规则修好——每一步都留下可审计的记录。"
+      },
+      "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjggMTI4IiByb2xlPSJpbWciIGFyaWEtbGFiZWw9ImRzaC1wcm92aWRlci1wYXJhbXMiPgogIDxyZWN0IHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiByeD0iMjQiIGZpbGw9ImhzbCgxODMgNDUlIDE4JSkiLz4KICA8Y2lyY2xlIGN4PSI0NyIgY3k9IjQxIiByPSIzMSIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJoc2woMjIzIDcwJSA2MiUpIiBzdHJva2Utd2lkdGg9IjYiLz4KICA8cGF0aCBkPSJNNzggNDEgTDEwNiA1Ni41IEw3OCA3MiBaIiBmaWxsPSJoc2woMjMgNjUlIDU4JSkiLz4KPC9zdmc+Cg==",
+      "author": "PerryLink",
       "homepage": "https://perrylink.github.io/dsh-plugins/packages/dsh-provider-params.html",
       "repository": {
         "url": "https://github.com/PerryLink/dsh-provider-params"
@@ -28010,12 +29105,19 @@
           "llm-api",
           "perrylink"
         ],
-        "sortKeys": {
-          "npm_weekly_downloads": 39
-        },
         "category": "other"
       },
       "versions": [
+        {
+          "version": "0.2.2",
+          "publishTimestamp": 1795365016,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.3 <0.4.0 || >=0.2.3-0 <0.3.0-0"
+          }
+        },
         {
           "version": "0.2.1",
           "publishTimestamp": 1795339970,
@@ -28056,14 +29158,20 @@
             "dsh": ">=0.2.1-rc.3 <0.4.0"
           }
         }
-      ],
-      "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjggMTI4IiByb2xlPSJpbWciIGFyaWEtbGFiZWw9ImRzaC1wcm92aWRlci1wYXJhbXMiPgogIDxyZWN0IHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiByeD0iMjQiIGZpbGw9ImhzbCgxODMgNDUlIDE4JSkiLz4KICA8Y2lyY2xlIGN4PSI0NyIgY3k9IjQxIiByPSIzMSIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJoc2woMjIzIDcwJSA2MiUpIiBzdHJva2Utd2lkdGg9IjYiLz4KICA8cGF0aCBkPSJNNzggNDEgTDEwNiA1Ni41IEw3OCA3MiBaIiBmaWxsPSJoc2woMjMgNjUlIDU4JSkiLz4KPC9zdmc+Cg==",
-      "author": "PerryLink"
+      ]
     },
     {
       "name": "dsh-rfq-compare",
-      "title": "dsh-rfq-compare",
-      "description": "Ingest supplier quotes, compare them per material, flag below-cost / over-budget / expired quotes and export a comparison CSV; amounts stay in integer cents.",
+      "title": {
+        "en": "Rfq compare",
+        "zh": "Rfq compare"
+      },
+      "description": {
+        "en": "Put several suppliers' quotes for the same materials into one table: who is cheapest, by how much, how fast, and which quote is below cost, over budget, or already expired.",
+        "zh": "把多家供应商对同一批物料的报价压进一张表：谁最低、差多少、交期多长，哪条低于成本线、超预算或已经过期。"
+      },
+      "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMTI4IDEyOCIgcm9sZT0iaW1nIiBhcmlhLWxhYmVsPSJSRlEgY29tcGFyZSI+CiAgPHJlY3Qgd2lkdGg9IjEyOCIgaGVpZ2h0PSIxMjgiIHJ4PSIyOCIgZmlsbD0iIzBiMTAyMCIvPgogIDxyZWN0IHg9IjEwIiB5PSIxMCIgd2lkdGg9IjEwOCIgaGVpZ2h0PSIxMDgiIHJ4PSIyMiIgZmlsbD0iIzE0MWIzMCIgc3Ryb2tlPSIjNmVhOGZlIiBzdHJva2Utd2lkdGg9IjMiLz4KICA8cGF0aCBkPSJNNjQgMzB2MThNMzAgNDhoNjgiIHN0cm9rZT0iIzZlYThmZSIgc3Ryb2tlLXdpZHRoPSI0IiBzdHJva2UtbGluZWNhcD0icm91bmQiLz4KICA8cGF0aCBkPSJNMzAgNDhsLTEwIDI0aDIwTDMwIDQ4ek05OCA0OEw4OCA3MmgyMEw5OCA0OHoiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzZlYThmZSIgc3Ryb2tlLXdpZHRoPSI0IiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+CiAgPHBhdGggZD0iTTQ4IDkyaDMyTTU2IDg0aDE2TTY0IDc2djgiIHN0cm9rZT0iIzNmYjk1MCIgc3Ryb2tlLXdpZHRoPSI0IiBzdHJva2UtbGluZWNhcD0icm91bmQiLz4KICA8Y2lyY2xlIGN4PSI2NCIgY3k9IjMwIiByPSI1IiBmaWxsPSIjM2ZiOTUwIi8+Cjwvc3ZnPgo=",
+      "author": "PerryLink",
       "homepage": "https://perrylink.github.io/dsh-plugins/",
       "repository": {
         "url": "https://github.com/PerryLink/dsh-rfq-compare"
@@ -28083,6 +29191,16 @@
         "category": "other"
       },
       "versions": [
+        {
+          "version": "0.2.2",
+          "publishTimestamp": 1795365011,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.3 <0.4.0 || >=0.2.3-0 <0.3.0-0"
+          }
+        },
         {
           "version": "0.2.1",
           "publishTimestamp": 1795340227,
@@ -28123,9 +29241,7 @@
             "dsh": ">=0.2.1-rc.3 <0.4.0"
           }
         }
-      ],
-      "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMTI4IDEyOCIgcm9sZT0iaW1nIiBhcmlhLWxhYmVsPSJSRlEgY29tcGFyZSI+CiAgPHJlY3Qgd2lkdGg9IjEyOCIgaGVpZ2h0PSIxMjgiIHJ4PSIyOCIgZmlsbD0iIzBiMTAyMCIvPgogIDxyZWN0IHg9IjEwIiB5PSIxMCIgd2lkdGg9IjEwOCIgaGVpZ2h0PSIxMDgiIHJ4PSIyMiIgZmlsbD0iIzE0MWIzMCIgc3Ryb2tlPSIjNmVhOGZlIiBzdHJva2Utd2lkdGg9IjMiLz4KICA8cGF0aCBkPSJNNjQgMzB2MThNMzAgNDhoNjgiIHN0cm9rZT0iIzZlYThmZSIgc3Ryb2tlLXdpZHRoPSI0IiBzdHJva2UtbGluZWNhcD0icm91bmQiLz4KICA8cGF0aCBkPSJNMzAgNDhsLTEwIDI0aDIwTDMwIDQ4ek05OCA0OEw4OCA3MmgyMEw5OCA0OHoiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzZlYThmZSIgc3Ryb2tlLXdpZHRoPSI0IiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+CiAgPHBhdGggZD0iTTQ4IDkyaDMyTTU2IDg0aDE2TTY0IDc2djgiIHN0cm9rZT0iIzNmYjk1MCIgc3Ryb2tlLXdpZHRoPSI0IiBzdHJva2UtbGluZWNhcD0icm91bmQiLz4KICA8Y2lyY2xlIGN4PSI2NCIgY3k9IjMwIiByPSI1IiBmaWxsPSIjM2ZiOTUwIi8+Cjwvc3ZnPgo=",
-      "author": "PerryLink"
+      ]
     },
     {
       "name": "dsh-scaffold",
@@ -28215,8 +29331,16 @@
     },
     {
       "name": "dsh-settlement-docs",
-      "title": "dsh-settlement-docs",
-      "description": "Check a construction final-settlement document checklist against what was actually submitted: missing documents, short copies, missing signatures/stamps and the completeness rate; export a review worksheet CSV.",
+      "title": {
+        "en": "Settlement docs",
+        "zh": "Settlement docs"
+      },
+      "description": {
+        "en": "Check a construction final-settlement document checklist against what was actually submitted — missing documents, short copies, missing signatures/stamps, optional documents absent → a review worksheet CSV.",
+        "zh": "按资料清单核对竣工结算资料齐套性：缺件、份数不足、未签字/未盖章、非必需缺失 → 核对表 CSV。"
+      },
+      "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMTI4IDEyOCIgcm9sZT0iaW1nIiBhcmlhLWxhYmVsPSJTZXR0bGVtZW50IGRvY3VtZW50IGNvbXBsZXRlbmVzcyBjaGVjayI+CiAgPHJlY3Qgd2lkdGg9IjEyOCIgaGVpZ2h0PSIxMjgiIHJ4PSIyOCIgZmlsbD0iIzBiMTAyMCIvPgogIDxyZWN0IHg9IjEwIiB5PSIxMCIgd2lkdGg9IjEwOCIgaGVpZ2h0PSIxMDgiIHJ4PSIyMiIgZmlsbD0iIzE0MWIzMCIgc3Ryb2tlPSIjNThhNmZmIiBzdHJva2Utd2lkdGg9IjMiLz4KICA8cmVjdCB4PSIyNiIgeT0iMjAiIHdpZHRoPSI3NiIgaGVpZ2h0PSI4OCIgcng9IjgiIGZpbGw9IiNmNGY3ZmYiIG9wYWNpdHk9IjAuOTYiLz4KICA8cmVjdCB4PSI0MiIgeT0iMTUiIHdpZHRoPSI0NCIgaGVpZ2h0PSIxMiIgcng9IjUiIGZpbGw9IiM1OGE2ZmYiLz4KICA8cGF0aCBkPSJNMzggNDRoNTJNMzggNTZoNTJNMzggNjhoMzQiIHN0cm9rZT0iIzZlYThmZSIgc3Ryb2tlLXdpZHRoPSI0IiBzdHJva2UtbGluZWNhcD0icm91bmQiLz4KICA8cGF0aCBkPSJNNzggNzZsNyA3IDEzLTE1IiBzdHJva2U9IiMxYTdmMzciIHN0cm9rZS13aWR0aD0iNSIgZmlsbD0ibm9uZSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+CiAgPGNpcmNsZSBjeD0iNDQiIGN5PSI5MiIgcj0iNSIgZmlsbD0iI2YwYjQyOSIvPgogIDxwYXRoIGQ9Ik01OCA5MmgzMiIgc3Ryb2tlPSIjZjBiNDI5IiBzdHJva2Utd2lkdGg9IjQiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPgo8L3N2Zz4K",
+      "author": "PerryLink",
       "homepage": "https://perrylink.github.io/dsh-plugins/packages/dsh-settlement-docs.html",
       "repository": {
         "url": "https://github.com/PerryLink/dsh-settlement-docs"
@@ -28236,6 +29360,16 @@
         "category": "other"
       },
       "versions": [
+        {
+          "version": "0.2.2",
+          "publishTimestamp": 1795365020,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.3 <0.4.0 || >=0.2.3-0 <0.3.0-0"
+          }
+        },
         {
           "version": "0.2.1",
           "publishTimestamp": 1795339979,
@@ -28276,14 +29410,20 @@
             "dsh": ">=0.2.1-rc.3 <0.4.0"
           }
         }
-      ],
-      "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMTI4IDEyOCIgcm9sZT0iaW1nIiBhcmlhLWxhYmVsPSJTZXR0bGVtZW50IGRvY3VtZW50IGNvbXBsZXRlbmVzcyBjaGVjayI+CiAgPHJlY3Qgd2lkdGg9IjEyOCIgaGVpZ2h0PSIxMjgiIHJ4PSIyOCIgZmlsbD0iIzBiMTAyMCIvPgogIDxyZWN0IHg9IjEwIiB5PSIxMCIgd2lkdGg9IjEwOCIgaGVpZ2h0PSIxMDgiIHJ4PSIyMiIgZmlsbD0iIzE0MWIzMCIgc3Ryb2tlPSIjNThhNmZmIiBzdHJva2Utd2lkdGg9IjMiLz4KICA8cmVjdCB4PSIyNiIgeT0iMjAiIHdpZHRoPSI3NiIgaGVpZ2h0PSI4OCIgcng9IjgiIGZpbGw9IiNmNGY3ZmYiIG9wYWNpdHk9IjAuOTYiLz4KICA8cmVjdCB4PSI0MiIgeT0iMTUiIHdpZHRoPSI0NCIgaGVpZ2h0PSIxMiIgcng9IjUiIGZpbGw9IiM1OGE2ZmYiLz4KICA8cGF0aCBkPSJNMzggNDRoNTJNMzggNTZoNTJNMzggNjhoMzQiIHN0cm9rZT0iIzZlYThmZSIgc3Ryb2tlLXdpZHRoPSI0IiBzdHJva2UtbGluZWNhcD0icm91bmQiLz4KICA8cGF0aCBkPSJNNzggNzZsNyA3IDEzLTE1IiBzdHJva2U9IiMxYTdmMzciIHN0cm9rZS13aWR0aD0iNSIgZmlsbD0ibm9uZSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+CiAgPGNpcmNsZSBjeD0iNDQiIGN5PSI5MiIgcj0iNSIgZmlsbD0iI2YwYjQyOSIvPgogIDxwYXRoIGQ9Ik01OCA5MmgzMiIgc3Ryb2tlPSIjZjBiNDI5IiBzdHJva2Utd2lkdGg9IjQiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPgo8L3N2Zz4K",
-      "author": "PerryLink"
+      ]
     },
     {
       "name": "dsh-store-replenish",
-      "title": "dsh-store-replenish",
-      "description": "Store-SKU replenishment suggestions, per-store replenishment plans and replenishment CSV; local files only.",
+      "title": {
+        "en": "Store replenish",
+        "zh": "Store replenish"
+      },
+      "description": {
+        "en": "Turn a store-SKU sales/inventory CSV into per-SKU replenishment suggestions, per-store replenishment orders and a replenishment CSV.",
+        "zh": "把门店-商品销售库存表变成按 SKU 的补货建议、按门店汇总的补货单和补货 CSV。"
+      },
+      "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMTI4IDEyOCIgcm9sZT0iaW1nIiBhcmlhLWxhYmVsPSJTdG9yZSByZXBsZW5pc2htZW50Ij4KICA8cmVjdCB3aWR0aD0iMTI4IiBoZWlnaHQ9IjEyOCIgcng9IjI4IiBmaWxsPSIjMGIxMDIwIi8+CiAgPHJlY3QgeD0iMTAiIHk9IjEwIiB3aWR0aD0iMTA4IiBoZWlnaHQ9IjEwOCIgcng9IjIyIiBmaWxsPSIjMTQxYjMwIiBzdHJva2U9IiMzNGQzOTkiIHN0cm9rZS13aWR0aD0iMyIvPgogIDxwYXRoIGQ9Ik0yNiAzOGg3Nk0yNiA2Nmg3Nk0yNiA5NGg3NiIgc3Ryb2tlPSIjOTRhM2I4IiBzdHJva2Utd2lkdGg9IjQiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPgogIDxyZWN0IHg9IjMyIiB5PSI0NCIgd2lkdGg9IjIwIiBoZWlnaHQ9IjE4IiByeD0iMyIgZmlsbD0iI2Y0ZjdmZiIvPgogIDxyZWN0IHg9IjU4IiB5PSI0NCIgd2lkdGg9IjIwIiBoZWlnaHQ9IjE4IiByeD0iMyIgZmlsbD0iI2Y0ZjdmZiIvPgogIDxyZWN0IHg9Ijg0IiB5PSI0NCIgd2lkdGg9IjEyIiBoZWlnaHQ9IjE4IiByeD0iMyIgZmlsbD0iIzM0ZDM5OSIvPgogIDxyZWN0IHg9IjMyIiB5PSI3MiIgd2lkdGg9IjIwIiBoZWlnaHQ9IjE4IiByeD0iMyIgZmlsbD0iI2Y0ZjdmZiIvPgogIDxyZWN0IHg9IjU4IiB5PSI3MiIgd2lkdGg9IjIwIiBoZWlnaHQ9IjE4IiByeD0iMyIgZmlsbD0iI2Y1OWUwYiIvPgogIDxwYXRoIGQ9Ik0zNCA2MHY4TTYwIDYwdjhNODYgNjB2OCIgc3Ryb2tlPSIjMGIxMDIwIiBzdHJva2Utd2lkdGg9IjIiLz4KICA8cGF0aCBkPSJNOTYgMjhoMTBtLTUtNXYxMCIgc3Ryb2tlPSIjMzRkMzk5IiBzdHJva2Utd2lkdGg9IjQiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPgo8L3N2Zz4K",
+      "author": "PerryLink",
       "homepage": "https://perrylink.github.io/dsh-plugins/",
       "repository": {
         "url": "https://github.com/PerryLink/dsh-store-replenish"
@@ -28304,6 +29444,16 @@
         "category": "other"
       },
       "versions": [
+        {
+          "version": "0.2.2",
+          "publishTimestamp": 1795365009,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.3 <0.4.0 || >=0.2.3-0 <0.3.0-0"
+          }
+        },
         {
           "version": "0.2.1",
           "publishTimestamp": 1795340043,
@@ -28344,9 +29494,7 @@
             "dsh": ">=0.2.1-rc.3 <0.4.0"
           }
         }
-      ],
-      "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMTI4IDEyOCIgcm9sZT0iaW1nIiBhcmlhLWxhYmVsPSJTdG9yZSByZXBsZW5pc2htZW50Ij4KICA8cmVjdCB3aWR0aD0iMTI4IiBoZWlnaHQ9IjEyOCIgcng9IjI4IiBmaWxsPSIjMGIxMDIwIi8+CiAgPHJlY3QgeD0iMTAiIHk9IjEwIiB3aWR0aD0iMTA4IiBoZWlnaHQ9IjEwOCIgcng9IjIyIiBmaWxsPSIjMTQxYjMwIiBzdHJva2U9IiMzNGQzOTkiIHN0cm9rZS13aWR0aD0iMyIvPgogIDxwYXRoIGQ9Ik0yNiAzOGg3Nk0yNiA2Nmg3Nk0yNiA5NGg3NiIgc3Ryb2tlPSIjOTRhM2I4IiBzdHJva2Utd2lkdGg9IjQiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPgogIDxyZWN0IHg9IjMyIiB5PSI0NCIgd2lkdGg9IjIwIiBoZWlnaHQ9IjE4IiByeD0iMyIgZmlsbD0iI2Y0ZjdmZiIvPgogIDxyZWN0IHg9IjU4IiB5PSI0NCIgd2lkdGg9IjIwIiBoZWlnaHQ9IjE4IiByeD0iMyIgZmlsbD0iI2Y0ZjdmZiIvPgogIDxyZWN0IHg9Ijg0IiB5PSI0NCIgd2lkdGg9IjEyIiBoZWlnaHQ9IjE4IiByeD0iMyIgZmlsbD0iIzM0ZDM5OSIvPgogIDxyZWN0IHg9IjMyIiB5PSI3MiIgd2lkdGg9IjIwIiBoZWlnaHQ9IjE4IiByeD0iMyIgZmlsbD0iI2Y0ZjdmZiIvPgogIDxyZWN0IHg9IjU4IiB5PSI3MiIgd2lkdGg9IjIwIiBoZWlnaHQ9IjE4IiByeD0iMyIgZmlsbD0iI2Y1OWUwYiIvPgogIDxwYXRoIGQ9Ik0zNCA2MHY4TTYwIDYwdjhNODYgNjB2OCIgc3Ryb2tlPSIjMGIxMDIwIiBzdHJva2Utd2lkdGg9IjIiLz4KICA8cGF0aCBkPSJNOTYgMjhoMTBtLTUtNXYxMCIgc3Ryb2tlPSIjMzRkMzk5IiBzdHJva2Utd2lkdGg9IjQiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPgo8L3N2Zz4K",
-      "author": "PerryLink"
+      ]
     },
     {
       "name": "dsh-wechat",
