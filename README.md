@@ -9,10 +9,16 @@ A [DSH plugin market index](https://github.com/deepseek-ai/deepseek-harness/blob
 3. Enter:
 
 ```text
-https://raw.githubusercontent.com/PerryLink/dsh-market/main/index.json
+https://perrylink.github.io/dsh-market/index.json
 ```
 
-The file is UTF-8 JSON, served over HTTPS without a redirect, and every icon is an inline `data:` URL, so a Git source would work as well:
+If GitHub Pages is unreachable from your network, the jsDelivr mirror serves the same file:
+
+```text
+https://cdn.jsdelivr.net/gh/PerryLink/dsh-market@main/index.json
+```
+
+The file is UTF-8 JSON, served over HTTPS without a redirect, and every icon is an inline `data:` URL, so a Git source works as well:
 
 ```text
 git+https://github.com/PerryLink/dsh-market.git
