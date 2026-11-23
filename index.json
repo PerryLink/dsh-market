@@ -169,6 +169,16 @@
       },
       "versions": [
         {
+          "version": "0.15.5",
+          "publishTimestamp": 1795411306,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-0 <0.3.0 || >=0.2.2-0 <0.3.0 || >=0.2.3-0 <0.3.0-0"
+          }
+        },
+        {
           "version": "0.15.4",
           "publishTimestamp": 1795334277,
           "source": {
@@ -702,6 +712,16 @@
         "category": "security"
       },
       "versions": [
+        {
+          "version": "0.8.6",
+          "publishTimestamp": 1795411980,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.1.2-rc.1 <0.2.0 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-0 <0.2.0 || >=0.1.7-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0 || >=0.2.2-0 <0.3.0 || >=0.2.3-0 <0.3.0-0"
+          }
+        },
         {
           "version": "0.8.5",
           "publishTimestamp": 1795335657,
@@ -1297,6 +1317,16 @@
       },
       "versions": [
         {
+          "version": "0.5.34",
+          "publishTimestamp": 1795410959,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.1.2-rc.1 <0.2.0 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-0 <0.2.0 || >=0.1.7-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0 || >=0.2.2-0 <0.3.0 || >=0.2.3-0 <0.3.0-0"
+          }
+        },
+        {
           "version": "0.5.33",
           "publishTimestamp": 1795348811,
           "source": {
@@ -1756,6 +1786,16 @@
         "category": "session"
       },
       "versions": [
+        {
+          "version": "0.6.38",
+          "publishTimestamp": 1795410684,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-0 <0.3.0 || >=0.2.2-0 <0.3.0 || >=0.2.3-0 <0.3.0-0"
+          }
+        },
         {
           "version": "0.6.37",
           "publishTimestamp": 1795333685,
@@ -2565,6 +2605,16 @@
       },
       "versions": [
         {
+          "version": "0.3.30",
+          "publishTimestamp": 1795410755,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-0 <0.3.0 || >=0.2.2-0 <0.3.0 || >=0.2.3-0 <0.3.0-0"
+          }
+        },
+        {
           "version": "0.3.29",
           "publishTimestamp": 1795334408,
           "source": {
@@ -2917,6 +2967,16 @@
         "category": "research"
       },
       "versions": [
+        {
+          "version": "0.4.5",
+          "publishTimestamp": 1795411229,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.1.6-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0 || >=0.2.2-0 <0.3.0 || >=0.2.3-0 <0.3.0-0"
+          }
+        },
         {
           "version": "0.4.4",
           "publishTimestamp": 1795335083,
@@ -3853,6 +3913,16 @@
         "category": "security"
       },
       "versions": [
+        {
+          "version": "0.2.28",
+          "publishTimestamp": 1795410829,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.1.2-rc.1 <0.2.0 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-0 <0.2.0 || >=0.1.7-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0 || >=0.2.2-0 <0.3.0 || >=0.2.3-0 <0.3.0-0"
+          }
+        },
         {
           "version": "0.2.27",
           "publishTimestamp": 1795334974,
@@ -5919,6 +5989,16 @@
       },
       "versions": [
         {
+          "version": "0.3.6",
+          "publishTimestamp": 1795411225,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.1.2-rc.1 <0.2.0 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-0 <0.2.0 || >=0.1.7-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0 || >=0.2.2-0 <0.3.0 || >=0.2.3-0 <0.3.0-0"
+          }
+        },
+        {
           "version": "0.3.5",
           "publishTimestamp": 1795335263,
           "source": {
@@ -6906,6 +6986,16 @@
       },
       "versions": [
         {
+          "version": "0.5.7",
+          "publishTimestamp": 1795410807,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-0 <0.3.0 || >=0.2.2-0 <0.3.0 || >=0.2.3-0 <0.3.0-0"
+          }
+        },
+        {
           "version": "0.5.6",
           "publishTimestamp": 1795334459,
           "source": {
@@ -7482,6 +7572,16 @@
         "category": "research"
       },
       "versions": [
+        {
+          "version": "0.3.29",
+          "publishTimestamp": 1795410752,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-0 <0.3.0 || >=0.2.2-0 <0.3.0 || >=0.2.3-0 <0.3.0-0"
+          }
+        },
         {
           "version": "0.3.28",
           "publishTimestamp": 1795334479,
@@ -17235,6 +17335,16 @@
       },
       "versions": [
         {
+          "version": "0.9.35",
+          "publishTimestamp": 1795411036,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.1.6-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0 || >=0.2.2-0 <0.3.0 || >=0.2.3-0 <0.3.0-0"
+          }
+        },
+        {
           "version": "0.9.34",
           "publishTimestamp": 1795334531,
           "source": {
@@ -20039,6 +20149,16 @@
       },
       "versions": [
         {
+          "version": "0.3.29",
+          "publishTimestamp": 1795410986,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-0 <0.3.0 || >=0.2.2-0 <0.3.0 || >=0.2.3-0 <0.3.0-0"
+          }
+        },
+        {
           "version": "0.3.28",
           "publishTimestamp": 1795335322,
           "source": {
@@ -21773,6 +21893,16 @@
       },
       "versions": [
         {
+          "version": "0.2.31",
+          "publishTimestamp": 1795410835,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.1.2-rc.1 <0.2.0 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-0 <0.2.0 || >=0.1.7-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0 || >=0.2.2-0 <0.3.0 || >=0.2.3-0 <0.3.0-0"
+          }
+        },
+        {
           "version": "0.2.30",
           "publishTimestamp": 1795334647,
           "source": {
@@ -22156,6 +22286,16 @@
         "category": "integration"
       },
       "versions": [
+        {
+          "version": "0.5.24",
+          "publishTimestamp": 1795411305,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-0 <0.3.0 || >=0.2.2-0 <0.3.0 || >=0.2.3-0 <0.3.0-0"
+          }
+        },
         {
           "version": "0.5.23",
           "publishTimestamp": 1795335140,
@@ -22550,6 +22690,16 @@
         "category": "integration"
       },
       "versions": [
+        {
+          "version": "0.6.35",
+          "publishTimestamp": 1795410830,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.1.2-rc.1 <0.2.0 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-0 <0.2.0 || >=0.1.7-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0 || >=0.2.2-0 <0.3.0 || >=0.2.3-0 <0.3.0-0"
+          }
+        },
         {
           "version": "0.6.34",
           "publishTimestamp": 1795334238,
@@ -23068,9 +23218,9 @@
         "zh": "本地的非生成式决策层：phocinae_ask / phocinae_gate 两个工具，外加一个失效即拒的审批闸门。"
       },
       "author": "PerryLink",
-      "homepage": "https://github.com/Phocinae/dsh-phocinae#readme",
+      "homepage": "https://github.com/PerryLink/dsh-phocinae#readme",
       "repository": {
-        "url": "https://github.com/Phocinae/dsh-phocinae"
+        "url": "https://github.com/PerryLink/dsh-phocinae"
       },
       "metadata": {
         "keywords": [
@@ -23089,6 +23239,16 @@
         "category": "integration"
       },
       "versions": [
+        {
+          "version": "0.2.7",
+          "publishTimestamp": 1795411135,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-0 <0.3.0 || >=0.2.3-0 <0.3.0-0"
+          }
+        },
         {
           "version": "0.2.5",
           "publishTimestamp": 1791770158,
@@ -23995,6 +24155,16 @@
       },
       "versions": [
         {
+          "version": "0.2.31",
+          "publishTimestamp": 1795410743,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.1.2-rc.1 <0.2.0 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-0 <0.2.0 || >=0.1.7-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0 || >=0.2.2-0 <0.3.0 || >=0.2.3-0 <0.3.0-0"
+          }
+        },
+        {
           "version": "0.2.30",
           "publishTimestamp": 1795333825,
           "source": {
@@ -24350,6 +24520,16 @@
         "category": "observability"
       },
       "versions": [
+        {
+          "version": "0.2.31",
+          "publishTimestamp": 1795410933,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-0 <0.3.0 || >=0.2.2-0 <0.3.0 || >=0.2.3-0 <0.3.0-0"
+          }
+        },
         {
           "version": "0.2.30",
           "publishTimestamp": 1795335062,
@@ -24747,6 +24927,16 @@
         "category": "desktop"
       },
       "versions": [
+        {
+          "version": "0.3.34",
+          "publishTimestamp": 1795410863,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-0 <0.3.0 || >=0.2.2-0 <0.3.0 || >=0.2.3-0 <0.3.0-0"
+          }
+        },
         {
           "version": "0.3.33",
           "publishTimestamp": 1795334481,
@@ -28866,6 +29056,16 @@
       },
       "versions": [
         {
+          "version": "0.5.12",
+          "publishTimestamp": 1795410816,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-0 <0.3.0 || >=0.2.3-0 <0.3.0-0"
+          }
+        },
+        {
           "version": "0.5.11",
           "publishTimestamp": 1795334765,
           "source": {
@@ -29173,6 +29373,16 @@
         "category": "other"
       },
       "versions": [
+        {
+          "version": "0.4.8",
+          "publishTimestamp": 1795410185,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-0 <0.3.0 || >=0.2.2-0 <0.3.0 || >=0.2.3-0 <0.3.0-0"
+          }
+        },
         {
           "version": "0.4.7",
           "publishTimestamp": 1794638580,
